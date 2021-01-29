@@ -1,0 +1,617 @@
+/* =================  GLOBALS ====================== */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  outline: none;
+}
+@font-face{
+  font-family: product-sans;
+  src: url(../fonts/Product-Sans-Regular.ttf);
+}
+html{
+  font-family: product-sans, Arial, sans-serif;
+}
+
+:root{
+  --main-color: rgb(32, 59, 117);
+  --carol-color: #ee6f57;
+  --main-color-light: #3a62b9;
+  --white-color: #ffffff;
+  --black-color: #262626;
+  --light-grey-color: #e0e0e0;
+}
+.clearfix{
+  clear: both;
+}
+/* =================  GLOBALS ======================  */
+
+/* ============= START NAVBAR ============== */
+
+nav.navbar{
+  padding: 0 40px !important;
+  box-shadow: 0 5px 10px #26262641;
+}
+
+.navbar-nav li.nav-item {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.navbar-nav li.nav-item svg{
+  font-size: 15px;
+  opacity: .8;
+  color: var(--black-color);
+}
+.navbar-nav li.nav-item:hover svg{
+  opacity: 1;
+}
+.navbar-nav li.nav-item .nav-link{
+  margin: 0;
+  font-weight: 600;
+  color: var(--black-color);
+  opacity: .8;
+}
+.navbar-nav li.nav-item:hover .nav-link {
+  opacity: 1;
+  color: var(--black-color);
+}
+/* ============= END NAVBAR ============== */
+
+/* ================== STATR SLIDER =========== */
+div.well-searchbox{
+  width: 75%;
+  transform: translate(-110px, 180px);
+  margin-bottom: 0;
+  box-shadow: 3px 3px 10px #000000d8;
+}
+div.well-searchbox form.form-horizontal{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+div.well-searchbox form.form-horizontal .form-group{
+  width: 16%;
+}
+form.form-horizontal .form-group .control-label{
+  margin-bottom: 5px;
+  padding-left: 10px;
+}
+form.form-horizontal .btn-cont .btn{
+  background-color: #ff9900;
+  margin-top: 25px;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+form.form-horizontal .btn-cont .btn::before{
+  border: 1px solid #e0e0e0;
+}
+
+/* //// carousel caption //// */
+.carousel-item .overlay div.carousel-caption{
+  transform: translate(-25px, -80px);
+}
+.carousel-item .overlay div.carousel-caption h1{
+  margin: 15px 0 !important;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 5px #26262669;
+}
+.carousel-item .overlay div.carousel-caption p{
+  font-size: 18px;
+  color: #ffffff;
+}
+/* ================== END SLIDER =========== */
+
+/* =============== about us ================= */
+.marketing{
+  background-color: rgb(245 245 245 / 92%);
+  padding: 20px 0;
+  margin: 70px 0;
+}
+.marketing .container .marketing-box{
+  margin-top: 0 !important;
+}
+.marketing .container .marketing-box .m-bx img{
+  background-color: #9cb3ffdb;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.marketing .container .marketing-box .m-bx h2{
+  color: var(--black-color);
+  margin-bottom: 15px !important;
+}
+.marketing .container .marketing-box .m-bx p{
+  color: #262626a2;
+}
+/* =============== end about us ================= */
+
+/* =============== ADS =============== */
+.ads{
+  width: 80%;
+  height: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: relative;
+  margin: 65px 0;
+  top: 0;
+}
+.ads span{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 25px;
+  background-color: var(--light-grey-color);
+  text-align: center;
+  line-height: 25px;
+  user-select: none;
+  cursor: pointer;
+}
+/* =============== END ADS =============== */
+
+/* ============== Asked Questions ======== */
+.a-q{
+  background: url(img/para2.jpg) center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #000000d8;
+  background-blend-mode: darken;
+}
+.a-q .container{
+  background-color: transparent;
+  margin: 0 auto;
+}
+.a-q .container .faq{
+  color: var(--white-color);
+  align-items: center;
+  margin-top: 20px !important;
+}
+#accordion .a-card{
+  margin: 30px 0;
+  box-shadow: 0 1px 10px rgba(110, 130, 208, .7);
+  background-color: var(--light-grey-color);
+}
+.a-card .a-card-header .btn{
+  color: var(--light-grey-color) !important;
+}
+.a-card .a-card-header button.btn:hover{
+  color: var(--black-color) !important;
+}
+section .faq-2{
+  top: -120px;
+}
+.btn-link::before{
+  top: 47px;
+  background-color: var(--light-grey-color);
+  color: var(--black-color);
+}
+.btn-link:after{
+  background-color: var(--light-grey-color);
+  line-height: 37px;
+  color: var(--black-color);
+}
+/* ============== End Asked Questions ======== */
+
+/* ============== PROPERTY ==================== */
+.PROPERTY .container{
+  background-color: #eeeeee;
+}
+.PROPERTY .container #myBtnContainer h2{
+  color: var(--black-color);
+  letter-spacing: 1px;
+
+}
+.PROPERTY .container #myBtnContainer h2::before{
+  display: none;
+}
+.row, .row > .column{
+  padding: 0px;
+}
+.content{
+  border: 1px solid #000000d8;
+  padding: 4px;
+  width: 98%;
+  margin: 20px 0;
+  border: 1px solid #00000018;
+  border-radius: 5px;
+}
+.content a{
+  width: 100%;
+  height: 200px;
+}
+.content img{
+  width: 100% !important;
+  height: 200px !important;
+  margin-bottom: 15px;
+}
+.property-i .content h4{
+  margin: -8px 0 10px 10px !important;
+}
+.property-i .content p{
+  color: #00000081;
+  margin-left: 10px;
+}
+/* ============== END PROPERTY ================ */
+
+/* ============== Fav Location ================= */
+.fav-location-cont{
+  background-color: var(--white-color);
+}
+.fav-location-cont .fav-location{
+  background-color: var(--white-color);
+}
+.fav-location-header{
+  color: var(--main-color-light);
+  margin-bottom: 100px;
+}
+.main-row{
+  margin-top: 0 !important;
+}
+.fav-location .card-body, .fav-location .card{
+  background-color: #efefef  !important;
+}
+.main-row .card{
+  height: 350px;
+  border-radius: 10px !important;
+}
+.main-row .card img{
+  height: 65%;
+  width: 100%;
+  border-radius: 10px 10px 0 0 !important;
+}
+.main-row .card .card-body p{
+  opacity: .7;
+}
+/* ============== End Fav Location ================= */
+
+/* ==================== EG-RESORTS ============== */
+.eg-resorts{
+  width: 100%;
+  margin: 60px 0;
+  background: url(img/para.jpg) center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+  background-color: #00000080;
+  background-blend-mode: darken;
+  text-align: center;
+}
+.eg-resorts .resort-text h1{
+  color: var(--white-color);
+  margin-bottom: 20px;
+}
+.eg-resorts .resort-text button{
+  color: var(--white-color);
+  letter-spacing: 1px;
+}
+/* ==================== END EG-RESORTS ============== */
+
+/* ================ Etate-Dev ===================== */
+.estate-dev1{
+  margin-top: 35px;
+}
+.estate-dev1 h1{
+  text-align: center;
+  text-transform: capitalize;
+  margin: 80px 0 30px;
+}
+.estate-dev1 .container{
+  background-color: transparent;
+}
+.estate-dev1 #hassan-allam{
+  width: 49%;
+}
+.estate-dev1 #hassan-allam .carousel-inner img{
+  width: 100%;
+  height: 400px;
+}
+.estate-dev1 .about-text{
+  width: 49%;
+}
+.estate-dev1 .about-text .contact-adjust{
+  display: flex;
+}
+.estate-dev1 .about-text  h2{
+  text-align: left;
+  margin: 10px 20px 0 0;
+}
+.estate-dev1 .about-text h2 span{
+  font-weight: 400;
+  font-size: 24px;
+}
+.estate-dev1 .about-text a{
+  display: inline-block;
+  text-decoration: none;
+  color: var(--white-color);
+  background-color: var(--main-color-light);
+  border-radius: 25px;
+  user-select: none;
+  padding: 10px 15px;
+}
+.estate-dev1 .about-text a:hover{
+  background-color: var(--main-color);
+}
+/* [2] memaar almorshedy */
+.estate-dev2{
+  background-color: var(--light-grey-color);
+  margin: 80px 0;
+  padding-bottom: 30px;
+}
+.estate-dev2 .container{
+  background-color: var(--light-grey-color);
+}
+.estate-dev2 h1{
+  text-align: center;
+  text-transform: capitalize;
+  margin: 30px 0;
+  padding-top: 30px;
+}
+.estate-dev2 #almorshedy{
+  width: 49%;
+}
+.estate-dev2 #almorshedy .carousel-inner img{
+  width: 100%;
+  height: 400px;
+}
+.estate-dev2 .about-text{
+  width: 49%;
+}
+.estate-dev2 .about-text .contact-adjust{
+  display: flex;
+}
+.estate-dev2 .about-text h2{
+  text-align: left;
+  margin: 0 20px 0 0;
+}
+.estate-dev2 .about-text h2 span{
+  font-weight: 400;
+  font-size: 24px;
+}
+.estate-dev2 .about-text a{
+  display: inline-block;
+  text-decoration: none;
+  color: var(--white-color);
+  background-color: var(--main-color-light);
+  border-radius: 25px;
+  user-select: none;
+  padding: 10px 15px;
+}
+.estate-dev2 .about-text a:hover{
+  background-color: var(--main-color);
+}
+/* ================ End Etate-Dev ================= */
+.best-offers {
+  margin-bottom: 110px;
+}
+.best-offers .container{
+  background-color: #eeeeee;
+}
+
+/* ================== price section ============= */
+.Price-content{
+  color: var(--black-color);
+}
+.Price-content::before{
+  display: none;
+}
+.Price-guide{
+  background-color: #f7f7f7;
+
+}
+/* ================== price section ============= */
+
+/* ============= deal ================= */
+.deal{
+  background-color: #f5f5f5;
+}
+.deal .section-header h1{
+  text-align: center;
+  margin-bottom: 0;
+}
+.deal .section-header h1::before{
+  display: none;
+}
+.deal-box{
+  margin-top: 50px;
+}
+.deal-box .card-img-wrapper img{
+  object-fit: cover;
+}
+
+/* ============== recent ================ */
+.recent{
+  background-color: var(--white-color);
+  margin: auto !important;
+}
+
+/* ============ */
+.video-cont{
+  background-color: var(--white-color);
+  box-shadow: 5px 5px 10px #00000081;
+  padding: 0;
+  margin: 50px auto !important;
+}
+
+/* =============== */
+.recommend{
+  margin-bottom: 20px;
+}
+
+/*  ============= footer ============= */
+.footer{
+  margin-bottom: 0;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.footer .carddf.cardf-1 p{
+  line-height: 25px;
+}
+
+.footer .carddf h4{
+  margin-bottom: 0;
+}
+.footer .carddf a{
+  transition: .3s ease-in-out;
+}
+.footer .carddf a:hover{
+  padding-left: 4px;
+  font-size: 18px;
+  color: #F0BA32;
+}
+
+/* ============== media query =================== */
+
+
+
+@media (max-width: 1190px){
+  .estate-dev1 #hassan-allam .carousel-inner img,
+  .estate-dev2 #hassan-allam .carousel-inner img{
+    height: 335px;
+  }
+  .offers-container .offer{
+    width: 32%;
+  }
+}
+@media (max-width: 990px){
+  .estate-dev1 #hassan-allam,
+  .estate-dev2 #almorshedy{
+    width: 100%;
+  }
+  .estate-dev1 .about-text,
+  .estate-dev2 .about-text{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .estate-dev1 .about-text h2,
+  .estate-dev2 .about-text h2{
+    text-align: center;
+  }
+  .estate-dev1 .about-text .contact-adjust,
+  .estate-dev2 .about-text .contact-adjust{
+    justify-content: space-between;
+  }
+  .estate-dev1 .carousel-indicators li,
+  .estate-dev2 .carousel-indicators li{
+    visibility: hidden;
+  }
+  .offers-container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .offers-container .offer{
+    width: 90%;
+    margin-bottom: 150px;
+  }
+}
+@media (max-width: 766px){
+  .estate-dev1 .about-text .contact-adjust,
+  .estate-dev2 .about-text .contact-adjust{
+    display: block;
+  }
+  .estate-dev1 .about-text h2,
+  .estate-dev2 .about-text h2{
+    text-align: center;
+  }
+  .estate-dev1 .about-text .contact-adjust h2,
+  .estate-dev2 .about-text .contact-adjust h2{
+    margin: 15px 0;
+    
+}
+@media (max-width: 420px){
+  .estate-dev1 .about-text .contact-adjust,
+  .estate-dev2 .about-text .contact-adjust{
+    display: block;
+  }
+  .estate-dev1 .about-text h2,
+  .estate-dev2 .about-text h2{
+    text-align: center;
+  }
+  .estate-dev1 .about-text .contact-adjust h2,
+  .estate-dev2 .about-text .contact-adjust h2{
+    margin: 15px 0;
+    text-align: center;
+  }
+}}
+
+
+
+/* Start media styling */
+@media screen and (max-width:1024px){
+  .card-info {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width:768px){
+
+.navbar-nav li.nav-item .nav-link {
+    margin-left: 15px;
+}
+
+.deal{
+  padding-bottom: 5rem;
+}
+.cards-wrapper{
+flex-direction: column;
+align-items: center;
+margin-top: 4rem;
+}
+.deal-card {
+  width: 100% !important;
+  margin-bottom: 25px;
+}
+.cardd{
+  width: 100% !important;
+  height: 25rem;
+}
+section .faq-2 {
+  width: 275px;
+  height: 533px;
+  position: absolute;
+  top: -200px;
+  right: 8px;
+}
+}
+
+
+
+@media screen and (max-width:700px){
+.cardd{
+  width: 100%;
+}
+.carddf{
+  width: 100% !important;
+  text-align: center;
+}
+.overlay:hover .text{
+  transform:translate(0,-37%);
+
+}
+}
+
+@media screen and (max-width:510px){
+  .deal-content{
+    left: 10px;
+  }
+}
+@media screen and (max-width:425px){
+  .overlay:hover .text{
+    transform:translate(0,-85px);
+  
+  }
+
+  section .faq-image{
+    display: none;
+  }
+
+}
+
+/* End media styling */

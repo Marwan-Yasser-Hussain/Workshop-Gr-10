@@ -1,0 +1,71 @@
+.nav-item .nav-link i{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.faqHeader {
+    font-size: 27px;
+    margin: 20px;
+}
+
+.panel-heading [data-toggle="collapse"]:after {
+    font-family: 'Glyphicons Halflings';
+    content: "e072"; /* "play" icon */
+    float: right;
+    color: #F58723;
+    font-size: 18px;
+    line-height: 22px;
+    /* rotate "play" icon from > (right arrow) to down arrow */
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.panel-heading [data-toggle="collapse"].collapsed:after {
+    /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    color: #454444;
+}
+
+.accordion-item button{
+
+border-left: none;
+border-right: none;
+}
+.accordion-item .top-button{
+border-top: none;
+border-left: none;
+border-right: none;
+}
+#ask{
+    background-image: url(../img/3.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.overlay{
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+#ask .container{
+    text-align: center;
+    position: relative;
+    top: 20%;
+    color: #eee;
+}
+@media screen and (max-width: 320px){
+.ask-q input{
+    width: 16rem;
+}
+#ask{
+    height: 50vh;
+}
+}

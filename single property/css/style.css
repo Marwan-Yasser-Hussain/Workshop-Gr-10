@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h6{
+    font-size: 1.1rem !important;
+    font-weight: 400 !important;
+}
+.propety-data{
+    margin-top: -17rem;
+}
+.property-facts__list p i{
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+.map-button{
+    position: relative;
+    top: 0;
+    left: -125px;
+    color:#3b97ba;
+    font-weight: 600;
+    border: 1px solid black;
+}
+.shop-for{
+    width: auto;
+}
+.property-location-area-second img{
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+}
+.property-location-area-second .agent-logo{
+    border-radius: 0;
+     width: 5rem;
+     height: 3rem;
+     margin-top: -66px;
+     margin-right: 10px;
+}
+.property-facts__column{
+    display: inline-block;
+    width: 50%;
+}
+.property-facts_column{
+    display: inline-block;
+
+}
+.property-location-detail-area-second a {
+    color: #3b5998 !important;
+}
+.property-location-area-first{
+    width: 43% !important;
+}
+.description h1{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+    color: #000;
+}
+.description p{
+    line-height: 1.5rem;
+    text-align: justify;
+    color: #a5a5a5;
+}
+.description button{
+    min-width: 2.25rem;
+    height: 2.25rem;
+    line-height: 0;
+    border-radius: .1875rem;
+    border: .0625rem solid #e8e1e0;
+    background: #fff;
+    font-size: .875rem;
+    font-weight: 700;
+    color: #403b45;
+    padding: 0 .75rem;
+}
+.description #readmore{
+    display: none;
+}
+.media{
+    margin-top: 20px;
+}
+.property-page__share-area{
+    margin-top: 40px;
+}
+.add-fav{
+    min-width: 2.25rem;
+    height: 2.25rem;
+    line-height: 0;
+    border-radius: .1875rem;
+    border: .0625rem solid #e8e1e0;
+    background: #fff;
+    font-size: 15px;
+    color: #403b45;
+    padding: 0 .75rem;
+}
+
+.add-fav .fa-facebook{
+    color: #3b5998;
+    font-size: 1.3rem !important;
+}
+.add-fav .fa-twitter{
+    color: #00acee;
+    font-size: 1.3rem !important;
+}
+
+.add-fav .fa-pinterest , .add-fav .fa-envelope{
+    color: 	#E60023;
+    font-size: 1.3rem !important;
+}
+.person{
+    margin-bottom: 40px;
+}
+.feedback h2{
+    text-decoration: underline;
+}
+.feedback .person-img{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    top: -100px;
+    position: relative;
+    margin-right: 20px;
+}
+.feedback .person-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    
+}
+.feedback .person-name{
+        margin-bottom: 0;
+}
+.feedback .person-data{
+    display: inline-block;
+    margin-top: 40px;
+}
+.feedback .person-data .reply i{
+    font-weight: 900;
+    background-color: #eee;
+    padding: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.feedback .person-data .reply{
+    text-align: right;
+    font-size: 1.3rem;
+    color: #888787dd;
+}
+.feedback .person-data p{
+    text-align: right;
+    margin: 0 0 10px 0;
+}
+.feedback .person-data .star i{
+    color: #f7b71d; 
+}
+.feedback .customer-text i{
+    color: #9a9999;
+    font-size: 1.3rem;
+}
+.recently-viewed .col{
+    width: 21.333333%;
+}
+.card-title,.card-text{
+    color: #77757a
+}
+.footer a:hover {
+    color: #cac40a;
+}
+.price.h6{
+    margin-top: -26px;
+}
+@media screen and (max-width:1024px){
+    .feedback .person-img {
+        top: 0;
+        margin-right: 0;
+    }
+    .feedback h4{
+        margin-bottom: 65px;
+    }
+}
+@media screen and (max-width:768px){
+    .propety-data{
+        margin-top: -8rem;
+    }
+    .property-location-area-first{
+        width: 100% !important;
+        margin-bottom: 65px !important;
+    }
+    .property-location-area-second{
+        width: 100% !important;
+    }
+    .recently-viewed .col {
+        width: 33.333333%;
+    }
+    .shop-for{
+        width: 12rem !important;
+    }
+    .porerty-heading{
+        font-size: 1.2rem;
+    }
+    .property-facts__column{
+        width: 43%;
+    }
+    .box-holder{
+        direction: rtl;
+        position: relative;
+        right: 0%;
+        margin-bottom: 9rem;
+        z-index: 1;  
+    }
+    .box{
+        width: 100%;
+    }
+    .price{
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .offer {
+        position: absolute;
+        top: 52px;
+        right: 34px;
+        text-align: right;
+    }
+    .price-holder{
+        width: 35%;
+    }
+}
+@media screen and (max-width:425px){
+    .property-facts__column {
+        display: inline-block;
+        width: 100%;
+    }
+    .recently-viewed .col {
+        width: 100%;
+    }
+    .customer-text{
+        margin-bottom: 55px !important;
+    }
+    .media p{
+        text-align: center !important;
+        font-size: 2rem !important;
+    }
+   
+    .carddf{
+        margin: 0 !important;
+    }
+    .offer {
+        top: 70px;
+    }
+}
+@media screen and (max-width:375px){
+    .property-location-area-second img {
+        margin-top: 0 !important;
+    }
+    .property-location-detail-area-first,.property-location-detail-area-second{
+        margin: 0 !important;
+    }
+    .property-location-detail-area-second img{
+        margin-top: -66px !important;
+    }
+    .btn.imge{
+        padding: 5px 5px;
+    }
+    .price h6{
+        font-size: 1rem !important;
+    }
+}

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/css.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+</head>
+<body>
+  
+  <!-- Start Nav bar -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light"
+    style=" position: fixed; z-index: 999999; right: 0; left: 0;">
+    <div class=" container-fluid">
+      <a class="navbar-brand" href="../index.html" style=" width: 7rem; height: 5rem; "><img src="img/logo_example_1-removebg.png"alt="" style="width: 100%; height: 100%;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown" style="justify-content: flex-end;  ">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="../index.html"><i class="fas fa-home"></i>Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="../about/about.html"><i class="fas fa-address-card"></i>About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-id-card-alt"></i> Apply
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="../register/register.html">As a Seller </a></li>
+              <li><a class="dropdown-item" href="../register/register.html">As an Agency</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-users"></i>User Information
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><a class="dropdown-item" href="#">Log In</a></li>
+              <li><a class="dropdown-item" href="../register/register.html">Sing Up</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-language"></i> Language
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#"><img src="img/egypt.png" alt=""> العربية</a></li>
+              <li><a class="dropdown-item" href="#"><img src="img/united-states.png" alt=""> English</a></li>
+              <li><a class="dropdown-item" href="#"><img src="img/france.png" alt=""> France</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Nav bar -->
+  <div class="container">
+
+    <div class="search-box">
+      <div class="f-column">
+        <div class="search-inp">
+          <i class="fa fa-search"></i>
+          <input type="search" placeholder="City or Town or District">
+          <button class="btn">Find</button>
+        </div>
+      </div>
+
+      <div class="s-column">
+        <div class="filter">
+          <input type="search"  id="keyword" placeholder="Keyword">
+          <select class="btn btn-light dropdown-toggle">
+            <option value="buy" class="dropdown-item">Buy</option>
+            <option value="rent" class="dropdown-item" selected>Rent</option>
+          </select>
+          <select class="btn btn-light dropdown-toggle">
+            <option value="buy" class="dropdown-item">Property type</option>
+            <option value="rent" class="dropdown-item" selected>Office</option>
+            <option value="rent" class="dropdown-item">Shop</option>
+            <option value="rent" class="dropdown-item">Villa</option>
+            <option value="rent" class="dropdown-item">Full Floor</option>
+            <option value="rent" class="dropdown-item">Whole Building</option>
+            <option value="rent" class="dropdown-item">Land</option>
+            <option value="rent" class="dropdown-item">Medical Facility</option>
+          </select>
+          <input type="text" placeholder="price" class="text">
+          <input type="text" placeholder="area">
+        </div>
+      </div>
+    </div>
+
+    <div class="result-info">
+    
+      <div>
+        <span class="sort">Sort By:</span> 
+         <select class="btn btn-light dropdown-toggle">
+          <option value="buy" class="dropdown-item" selected>Property Type</option>
+          <option value="rent" class="dropdown-item">Villas</option>
+          <option value="rent" class="dropdown-item">Challets</option>
+          <option value="rent" class="dropdown-item">buildings</option>
+          <option value="rent" class="dropdown-item">apartements</option>
+        </select>
+         <select class="btn btn-light dropdown-toggle">
+          <option value="buy" class="dropdown-item" selected>Property Location</option>
+          <option value="rent" class="dropdown-item">newest</option>
+          <option value="rent" class="dropdown-item">price(low)</option>
+          <option value="rent" class="dropdown-item">price(high)</option>
+        </select>
+         <select class="btn btn-light dropdown-toggle">
+          <option value="buy" class="dropdown-item" selected>Price Range</option>
+          <option value="rent" class="dropdown-item">price(low)</option>
+          <option value="rent" class="dropdown-item">price(high)</option>
+        </select>
+         <select class="btn btn-light dropdown-toggle">
+          <option value="buy" class="dropdown-item" selected>Developer</option>
+          <option value="rent" class="dropdown-item">newest</option>
+          <option value="rent" class="dropdown-item">price(low)</option>
+          <option value="rent" class="dropdown-item">price(high)</option>
+        </select>
+         <select class="btn btn-light dropdown-toggle fifth">
+          <option value="buy" class="dropdown-item" selected>Status</option>
+          <option value="rent" class="dropdown-item">newest</option>
+          <option value="rent" class="dropdown-item">price(low)</option>
+          <option value="rent" class="dropdown-item">price(high)</option>
+        </select>
+         <select class="btn btn-light dropdown-toggle six">
+          <option value="buy" class="dropdown-item" selected>Finish Type</option>
+          <option value="rent" class="dropdown-item">newest</option>
+          <option value="rent" class="dropdown-item">price(low)</option>
+          <option value="rent" class="dropdown-item">price(high)</option>
+        </select>
+         <select class="btn btn-light dropdown-toggle before-last">
+          <option value="buy" class="dropdown-item" selected>Payment Method</option>
+          <option value="rent" class="dropdown-item">newest</option>
+          <option value="rent" class="dropdown-item">price(low)</option>
+          <option value="rent" class="dropdown-item">price(high)</option>
+        </select>
+         <select class="btn btn-light dropdown-toggle last">
+          <option value="buy" class="dropdown-item" selected>Compound Name</option>
+          <option value="rent" class="dropdown-item">newest</option>
+          <option value="rent" class="dropdown-item">price(low)</option>
+          <option value="rent" class="dropdown-item">price(high)</option>
+        </select>
+
+
+
+
+      </div>
+    </div>
+    <div>
+      <h3>Commercial villas for rent in Egypt</h3>
+      <span>2 results</span>
+    </div>
+    <div class="result-cont">
+      
+      <div class="result-card">
+
+        <div class="result">
+          <img src="img/1151013-63fafo.jpg">
+          <div class="result-text">
+            <p style="text-decoration: line-through;">90,000 EGP/month</p>
+            <p>80,7665 EGP/month  <span id="demo"></span> </p>
+            <div class="location">Sant Square, Kafr Abdo, Roushdy, Hay Sharq, Alexandria</div>
+            <div class="det">Office 200M<sup>2</sup></div>
+            <span class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </span>
+            <div class="contact">
+              <button class="btn btn-outline-primary"> Call</button>
+              <button class="btn btn-outline-primary"> Email</button>
+              <button class="btn btn-outline-primary"> Save</button>
+              <button class="btn btn-outline-primary fav-btn"> <i class="fas fa-heart" style="margin-right: 10px; color: red;"></i>Add To Favorites</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="result">
+          <img src="img/1151013-63fafo.jpg">
+          <div class="result-text">
+            <p>90,000 EGP/month</p>
+            <div class="location">Sant Square, Kafr Abdo, Roushdy, Hay Sharq, Alexandria</div>
+            <div class="det">Office 200M<sup>2</sup></div>
+            <span class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </span>
+            <div class="contact">
+              <button class="btn btn-outline-primary"> Call</button>
+              <button class="btn btn-outline-primary"> Email</button>
+              <button class="btn btn-outline-primary"> Save</button>
+              <button class="btn btn-outline-primary fav-btn"> <i class="fas fa-heart" style="margin-right: 10px; color: red;"></i>Add To Favorites</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="ad">
+        <img src="img/source.gif">
+        <span>X</span>
+      </div>
+    </div>
+<!-- Start Recently Viewed -->
+<div class="recently-viewed">
+  <h2 style="text-decoration: underline; margin-bottom: 20px;">Recommended Properties</h2>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <a href="../single property/single.html"><img src="img/medical.jpg" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">Medical Facility</h5>
+          <p class="card-text">7,840,00 EGP</p>
+          <p class="card-text">MU-23, Downtown Area, New Capital City, Cairo</p>
+          <p class="card-text"><i class="fas fa-expand-arrows-alt" style="margin-right: 5px;"></i>88 sqm</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <a href="../single property/single.html"><img src="img/shop.jpg" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">Shop</h5>
+          <p class="card-text">8,712,00 EGP</p>
+          <p class="card-text">MU-23, Downtown Area, New Capital City, Cairo</p>
+          <p class="card-text"><i class="fas fa-bath" style="margin-right: 5px;"></i>2<i
+              class="fas fa-expand-arrows-alt" style="margin: 0 5px 0 20px;"></i>70 sqm</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <a href="../single property/single.html"><img src="img/retail.jpg" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">Retail</h5>
+          <p class="card-text">8,300,000 EGP</p>
+          <p class="card-text">MU-23, Downtown Area, New Capital City, Cairo</p>
+          <p class="card-text"><i class="fas fa-bath" style="margin-right: 5px;"></i>1<i
+              class="fas fa-expand-arrows-alt" style="margin: 0 5px 0 20px;"></i>47 sqm</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <a href="../single property/single.html"> <img src="img/retail2.jpg" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">Retail</h5>
+          <p class="card-text">8,580,000 EGP</p>
+          <p class="card-text">MU-23, Downtown Area, New Capital City, Cairo</p>
+          <p class="card-text"><i class="fas fa-expand-arrows-alt" style="margin-right: 5px;"></i>40 sqm</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Recently Viewed -->
+  </div>
+
+<script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>

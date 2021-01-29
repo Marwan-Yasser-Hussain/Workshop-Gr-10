@@ -1,0 +1,133 @@
+h2{
+  padding:  2%;
+}
+.title{
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+.about{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.holder-img{
+    width: 50%;
+}
+.img{
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/new/img(21).jpg") ;
+    background-attachment:fixed;
+		background-repeat: no-repeat;
+    position: relative;top: 0%;
+    left: -1%;
+    right: 50%;
+    width: 100%;
+    height: 100%;
+}
+.pp{
+    width: 50%;
+
+}
+/*============== Team Styling  ==========*/
+#Team .team-member{
+    float: left;
+    width: 23%;
+    background-color: #023f67 ;
+    padding-top: 5px;
+    margin: 10px 1%;
+    color: #fff;
+    text-align: center;
+}
+#Team .team-member .img-holderr{
+    position: relative;
+    overflow: hidden;
+    height: none !important;
+}
+#Team .team-member .img-holderr img{
+    width: 100%;
+}
+#Team .team-member .img-holderr .overlay,
+#Team .team-member .img-holderr ul{
+    position: absolute;
+    top: 0;
+}
+#Team .team-member h3{
+    text-transform: uppercase;
+    background-color: black;
+    text-align: center;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    top: -17px;
+    padding: 5px;
+    font-size: 22px !important;
+}
+#Team .team-member .img-holderr .overlay{
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    transition: .5s;
+    background-color: rgba(255,255,255,0.7);
+}
+#Team .team-member:hover .img-holderr .overlay{
+    height: 100%;
+}
+#Team .team-member .img-holderr ul{
+    left: 100%;
+    transition: .5s;
+    opacity: 0;
+    top: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+#Team .team-member .img-holderr ul li {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #023f67 ;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+}
+#Team .team-member .img-holderr ul li a{
+    color: #fff;
+}
+#Team .team-member:hover .img-holderr ul{
+    left: 50%;
+    opacity: 1;
+}
+
+
+/*============== /Team Styling  ==========*/
+@media screen and (max-width:768px){
+    #Team .team-member {
+        float: left;
+        width: 32.333%;
+    }
+}
+@media screen and (max-width:700px){
+    .holder-img{
+        width: 100%;
+        height: 500px;
+    }
+    .img{
+        background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/new/img(21).jpg") ;
+        background-attachment:fixed;
+		background-repeat: no-repeat;
+        position: relative;top: 0%;
+        left: -1%;
+        right: 50%;
+        width: 100%;
+        height: 100%;
+    }
+    .pp{
+        width: 80%;
+    }
+}
+@media screen and (max-width:425px){
+    #Team .team-member {
+        float: left;
+        width: 100%;
+    }
+}
