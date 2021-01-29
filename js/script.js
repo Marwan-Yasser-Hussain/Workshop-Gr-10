@@ -1,4 +1,8 @@
-
+window.onload = () => {
+  setTimeout(() => {
+    document.querySelector("body").classList.add("display");
+  }, 4000);
+};
 // ********* Start Filter Script*********
 
 filterSelection("all") // Execute the function and show all columns
