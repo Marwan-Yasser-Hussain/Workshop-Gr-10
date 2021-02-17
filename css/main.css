@@ -31,7 +31,7 @@
 }
 .nav-item a{
   font-size: 1.1rem;
-  margin-left: 5px;
+
   margin-right: 5px;
 }
 .navbar .dropdown-menu a{
@@ -405,6 +405,10 @@ a:link {
 .info{
   background-color: #023f67 ;
   width: 100%;
+}
+.in{
+  display: flex;
+  justify-content: space-around;
 }
 .text{
   position: absolute;

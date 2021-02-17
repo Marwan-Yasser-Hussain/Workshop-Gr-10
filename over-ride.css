@@ -361,34 +361,92 @@ section .faq-2{
 /* ============== END PROPERTY ================ */
 
 /* ============== Fav Location ================= */
-.fav-location-cont{
-  background-color: var(--white-color);
+.container.fav-section{
+  background-color: white;
 }
-.fav-location-cont .fav-location{
-  background-color: var(--white-color);
+
+.fav-box{
+  /* width: 1200px; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+  grid-gap: 15px;
+  margin: 0 auto;
 }
-.fav-location-header{
-  color: var(--main-color-light);
-  margin-bottom: 100px;
-}
-.main-row{
-  margin-top: 0 !important;
-}
-.fav-location .card-body, .fav-location .card{
-  background-color: #efefef  !important;
-}
-.main-row .card{
+.fav-box .l-card{
+  position: relative;
+  width: 88.8888%;
   height: 350px;
-  border-radius: 10px !important;
+  background: #fff;
+  margin: 0 auro;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.2);
+
 }
-.main-row .card img{
-  height: 65%;
+
+
+.fav-box .l-card .imgbx{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  background: #222;
+  transition: 0.5s;
+  z-index: 1;
+}
+.fav-box .l-card:hover .imgbx{
+  bottom: 100px;
+}
+.fav-box .l-card .imgbx img{
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  border-radius: 10px 10px 0 0 !important;
+  height: 100%;
+  object-fit: cover;
 }
-.main-row .card .card-body p{
-  opacity: .7;
+.fav-box .l-card .l-details{
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 33px;
+  height: 60px;
+  text-align: center;   
 }
+.fav-box .l-card .l-details h2{
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 20px;
+  color: #777;
+  text-transform: uppercase;
+}
+
+.fav-box .l-card .details span{
+  font-weight: 500;
+  font-size: 16px;
+  color: #f38695;
+  display: block;
+  margin-top: -10px;
+}
+
+.l-details h2{
+  margin-bottom: 19px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ============== End Fav Location ================= */
 
 /* ==================== EG-RESORTS ============== */
@@ -692,7 +750,7 @@ margin-top: 4rem;
   margin-bottom: 25px;
 }
 .cardd{
-  width: 100% !important;
+  width: 80% !important;
   height: 25rem;
 }
 section .faq-2 {
