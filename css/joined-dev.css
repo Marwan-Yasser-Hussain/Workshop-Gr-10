@@ -15,7 +15,9 @@
 html{
   font-family: product-sans, Arial, sans-serif;
 }
-
+body{
+  margin: 80px 0 0 !important;
+}
 :root{
   --main-color: #203b75;
   --main-color-light: #3a62b9;
@@ -66,7 +68,33 @@ section{
 }
 
 
+/* =========================================================== */
+@media (max-width: 768px){
+  .dev .logo{
+    width: 70%;
+  }
+  .dev .logo img {
+    width: 100%;
+  }
+  .dev-text {
+    text-align: center;
+  }
+}
 
+@media (max-width: 425px){
+  .dev{
+    flex-direction: column;
+  }
+  .dev .logo{
+    width: 100%;
+  }
+  .dev .logo img {
+    width: 100%;
+  }
+  header h1{
+    font-size: 17px;
+  }
+}
 
 
 

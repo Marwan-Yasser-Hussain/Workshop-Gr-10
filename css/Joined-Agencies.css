@@ -15,7 +15,9 @@
 html{
   font-family: product-sans, Arial, sans-serif;
 }
-
+body{
+  margin: 130px 0 0 !important;
+}
 :root{
   --main-color: #203b75;
   --main-color-light: #3a62b9;
@@ -75,6 +77,7 @@ html{
 .agency .info{
   width: 40%;
   padding: 20px 0;
+  background-color: transparent;
 }
 .agency .info > div{
   margin-bottom: 15px;

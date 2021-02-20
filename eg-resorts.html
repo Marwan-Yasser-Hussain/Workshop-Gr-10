@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Real E-states Website</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="over-ride.css">
   <link rel="stylesheet" href="css/eg-resorts.css">
   <link rel="stylesheet" href="css/all.min.css">
   <link rel="stylesheet" href="css/bootstrap.css">
@@ -16,6 +18,63 @@
 </head>
 <body>
 <section>
+  <!-- Start Nav bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light"
+    style=" position: fixed; z-index: 999999; right: 0; left: 0;">
+    <div class=" container-fluid">
+      <a class="navbar-brand" href="#" style=" width: 7rem; height: 5rem; "><img src="img/logo_example_1-removebg.png"
+          alt="" style="width: 100%; height: 100%;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown" style="justify-content: flex-end;  ">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <i class="fas fa-home"></i>
+            <a class="nav-link " aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <i class="fas fa-address-card"></i>
+            <a class="nav-link " aria-current="page" href="about/about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <i class="fas fa-id-card-alt"></i>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Apply</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="register/register.html">As a Seller </a></li>
+              <li><a class="dropdown-item" href="register/register.html">As an Agency</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <i class="fas fa-users"></i>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              User Information</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><a class="dropdown-item" href="">Log In</a></li>
+              <li><a class="dropdown-item" href="register/register.html">Sing Up</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <i class="fas fa-language"></i>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Language</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#"><img src="img/egypt.png" alt=""> العربية</a></li>
+              <li><a class="dropdown-item" href="#"><img src="img/united-states.png" alt=""> English</a></li>
+              <li><a class="dropdown-item" href="#"><img src="img/france.png" alt=""> France</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Nav bar -->
 <div class="container">
 
   <div class="header">
@@ -119,7 +178,99 @@
 </div>
 </section>
 
+    <!--start footer -->
 
+
+    <section class="footer row">
+
+
+      <div class="row">
+        <div class="carddf cardf-1">
+          <div class="logo-footer">
+            <a class="navbar-brand" href="#" style=" width: 7rem; height: 5rem; "><img
+                src="img/logo_example_1-removebg.png" alt="" style="width: 100%; height: 100%;"></a>
+          </div>
+          <h4>R-state site</h4>
+          <br>
+          <p>
+            Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Necessitatibus <br> at fugiat quos praesentium
+            sed
+            similique <br>
+            illum amet unde in recusandae voluptates <br> aliquam minima blanditiis nam, deleniti <br> beatae asperiores
+            accusamus
+            laboriosam!
+          </p>
+        </div>
+        <div class="carddf"><br>
+          <h4>
+            our service
+          </h4>
+          <br>
+          <p>
+            <a href="#">
+              Advice
+            </a>
+          </p>
+          <p>
+            <a href="#">
+              Price guide
+
+            </a>
+          </p>
+          <p>
+            <a href="#">
+              Advertise your property
+            </a>
+          </p>
+          <p>
+            <a href="#">
+              Real estate appraisal
+            </a>
+          </p>
+          <p>
+            <a href="#">
+              our partners
+            </a>
+          </p>
+        </div>
+        <div class="carddf"><br>
+          <h4>
+            other service
+          </h4><br>
+          <p>
+            <a href="#">
+              Jops
+
+            </a>
+          </p>
+          <p>
+            <a href="contact us/contactus.html">
+              Contact with us
+            </a>
+          </p>
+          <p>
+            <a href="Terms & Conditions/Terms Conditions.html">
+              terms and conditions
+            </a>
+          </p>
+        </div>
+        <div class="carddf">
+          <div class="copyright "> <br>
+            copyright@GR 10</div>
+          <div class="links "> <br>
+            <h4>
+              Social links
+            </h4> <br>
+            <a href="">
+              <i class="fab fa-facebook"></i></a>&nbsp;&nbsp;
+            <a href=""> <i class="fab fa-twitter"></i> </a>&nbsp;&nbsp;
+            <a href=""><i class="fab fa-instagram"></i> </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--end footer -->
 
 
   <script src="js/jquery-3.5.1.min.js"></script>

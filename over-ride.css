@@ -729,6 +729,9 @@ section .faq-2{
   .card-info {
     padding: 1rem;
   }
+  .carousel-item .overlay div.carousel-caption h1 {
+    font-size: 3.5rem !important;
+}
 }
 
 @media screen and (max-width:768px){
@@ -792,7 +795,11 @@ section .faq-2 {
   section .faq-image{
     display: none;
   }
+  .well-searchbox {
+ 
+    top: 50%;
 
+}
 }
 
 /* End media styling */

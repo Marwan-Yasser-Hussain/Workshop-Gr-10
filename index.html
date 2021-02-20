@@ -17,1356 +17,1416 @@
 </head>
 
 <body>
-<div class="spinner-container">
-  <div class="circles">
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-  </div>
-</div>
-<div class="hide">
-  <!-- Start Nav bar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light"
-    style=" position: fixed; z-index: 999999; right: 0; left: 0;">
-    <div class=" container-fluid">
-      <a class="navbar-brand" href="#" style=" width: 7rem; height: 5rem; "><img src="img/logo_example_1-removebg.png"
-          alt="" style="width: 100%; height: 100%;"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown" style="justify-content: flex-end;  ">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <i class="fas fa-home"></i>
-            <a class="nav-link " aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <i class="fas fa-address-card"></i>
-            <a class="nav-link " aria-current="page" href="about/about.html">About</a>
-          </li>
-          <li class="nav-item dropdown">
-            <i class="fas fa-id-card-alt"></i>
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Apply</a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="register/register.html">As a Seller </a></li>
-              <li><a class="dropdown-item" href="register/register.html">As an Agency</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <i class="fas fa-users"></i>
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              User Information</a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Profile</a></li>
-              <li><a class="dropdown-item" href="">Log In</a></li>
-              <li><a class="dropdown-item" href="register/register.html">Sing Up</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <i class="fas fa-language"></i>
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Language</a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#"><img src="img/egypt.png" alt=""> العربية</a></li>
-              <li><a class="dropdown-item" href="#"><img src="img/united-states.png" alt=""> English</a></li>
-              <li><a class="dropdown-item" href="#"><img src="img/france.png" alt=""> France</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- End Nav bar -->
-
-  <!-- Start Slider  -->
-  <div id="carouselExampleCaptions" class="carousel carousel slide" data-bs-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
-      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
-      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="10000">
-        <img src="img/New folder/Sarai.jpg" class="d-block w-100" alt="...">
-        <div class="overlay">
-          <div class="carousel-caption d-none d-md-block">
-            <h1><span class="first-litter">R</span>eal E-state</h1>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <img src="img/New folder/the axis compound.jpg" class="d-block w-100" alt="...">
-        <div class="overlay">
-          <div class="carousel-caption d-none d-md-block">
-            <h1><span class="first-litter">S</span>ell properties</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="img/New folder/ydwx2kGzXOvXRLDBgd5tZjqD7oxh7z.jpg" class="d-block w-100" alt="...">
-        <div class="overlay">
-          <div class="carousel-caption">
-            <h1><span class="first-litter">R</span>ent properties</h1>
-            <p class="lead">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </a>
-    
-  <!--searching-->
-  <div class="search-holder">
-    <div class="well-searchbox">
-      <form class="form-horizontal" role="form" action="search page/index.html">
-        <div class="form-group">
-          <label class="col-md-4 control-label">Keyword</label>
-          <input type="text" class="form-control" placeholder="Keyword">
-        </div>
-  
-        <div class="form-group">
-          <label class="control-label">Country</label>
-          <div class="Country">
-            <select class="form-control" placeholder="Country">
-              <option value="">----</option>
-              <option value="">Country</option>
-              <option value="">Country 2</option>
-            </select>
-          </div>
-        </div>
-  
-        <div class="form-group">
-          <label class="control-label">City</label>
-          <div class="city">
-            <select class="form-control" placeholder="City">
-              <option value="">----</option>
-              <option value="">city 1</option>
-              <option value="">city 2</option>
-            </select>
-          </div>
-        </div>
-  
-        <div class="form-group">
-          <label class="control-label">property</label>
-          <div class="property">
-            <select class="form-control" placeholder="property">
-              <option value="">----</option>
-              <option value="">property 1</option>
-              <option value="">property 2</option>
-            </select>
-          </div>
-        </div>
-  
-        <div class="form-group">
-          <label class="control-label">Categories</label>
-          <div class="category">
-            <select class="form-control" placeholder="Categories">
-              <option value="">----</option>
-              <option value="">Category 1</option>
-              <option value="">Category 2</option>
-            </select>
-          </div>
-        </div>
-        <div class="btn-cont">
-          <button  type="submit"   class="btn btn-success hvr-ripple-in">Search</button>
-        </div>
-      </form>
+  <div class="spinner-container">
+    <div class="circles">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
     </div>
   </div>
-    <!--searching-->
-  
-  </div>
-  <!-- End Slider  -->
-  
+  <div class="hide">
+    <!-- Start Nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"
+      style=" position: fixed; z-index: 999999; right: 0; left: 0;">
+      <div class=" container-fluid">
+        <a class="navbar-brand" href="#" style=" width: 7rem; height: 5rem; "><img src="img/logo_example_1-removebg.png"
+            alt="" style="width: 100%; height: 100%;"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown" style="justify-content: flex-end;  ">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <i class="fas fa-home"></i>
+              <a class="nav-link " aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <i class="fas fa-address-card"></i>
+              <a class="nav-link " aria-current="page" href="about/about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <i class="fas fa-id-card-alt"></i>
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Apply</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="register/register.html">As a Seller </a></li>
+                <li><a class="dropdown-item" href="register/register.html">As an Agency</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <i class="fas fa-users"></i>
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                User Information</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="Seller-Profile.html">Profile</a></li>
+                <li><a class="dropdown-item" href="Sliding Login Form sidetoside/Sliding Login Form.html">Log In</a>
+                </li>
+                <li><a class="dropdown-item" href="login/login.html">Sing Up</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <i class="fas fa-language"></i>
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Language</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#"><img src="img/egypt.png" alt=""> العربية</a></li>
+                <li><a class="dropdown-item" href="#"><img src="img/united-states.png" alt=""> English</a></li>
+                <li><a class="dropdown-item" href="#"><img src="img/france.png" alt=""> France</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Nav bar -->
 
-  <!--about us-->
-  <div class="marketing">
-    <div class="container">
-      <!-- Three columns of text below the carousel -->
-      <div class="row text-center about marketing-box" style="margin-top: 100px;">
-        <div class="col-lg-4 m-bx">
-          <img class="rounded-circle" src="img/card-1.png" width="140" height="140">
-          <h2>Reserch suburbs</h2>
-          <p>Find your place with our local lifestyle, demographics and market info.</p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4 m-bx">
-          <img class="rounded-circle" src="img/card-2.png" alt="Generic placeholder image" width="140" height="140">
-          <h2>We do home loans</h2>
-          <p>We’ll help you find the right home loan at a great rate..</p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4 m-bx">
-          <img class="rounded-circle" src="img/card-3.png" alt="Generic placeholder image" width="140" height="140">
-          <h2>Track your property</h2>
-          <p>Track the estimated value of your home and stay in touch with your local market.</p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-    </div>
-  </div>
-  <!--/about us-->
-  <div class="gif-ad1 ads">
-    <a href=""><span>X</span>
-    <img src="img/ads/gif-set1-00010.gif" alt=""></a>
-  </div>
-  <!--FQA-->
-
-  <section class="a-q">
-    <div class="container">
-      <h2 class="faq">Frequently Asked Questions</h2>
-      <div class="row">
-        <div class="col-md-6">
-          <div id="accordion">
-            <div class="card a-card">
-              <div class="card-header a-card-header" id="headingOne">
-                <h5 class="mb-0">
-                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-                    aria-controls="collapseOne">
-                    Collapsible Group Item #1
-                  </button>
-                </h5>
-              </div>
-
-              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-                  moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                  Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                  shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-                  proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-                  aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-              </div>
-            </div>
-            <div class="card a-card">
-              <div class="card-header a-card-header" id="headingTwo">
-                <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
-                    aria-expanded="false" aria-controls="collapseTwo">
-                    Collapsible Group Item #2
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-                  moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                  Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                  shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-                  proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-                  aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-              </div>
-            </div>
-            <div class="card a-card">
-              <div class="card-header a-card-header" id="headingThree">
-                <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
-                    aria-expanded="false" aria-controls="collapseThree">
-                    Collapsible Group Item #3
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-                  moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                  Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                  shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-                  proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-                  aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-              </div>
+    <!-- Start Slider  -->
+    <div id="carouselExampleCaptions" class="carousel carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="img/New folder/Sarai.jpg" class="d-block w-100" alt="...">
+          <div class="overlay">
+            <div class="carousel-caption d-none d-md-block">
+              <h1><span class="first-litter">R</span>eal E-state</h1>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </div>
           </div>
         </div>
-        <div class="col-md-6 faq-image">
-          <img src="img/FAQ.svg" class="faq-2">
-        </div>
-      </div>
-      <a href="faq/FAQ.html" type="button" class="btn btn-secondary">Read more FAQ</a>
-    </div>
-  </section>
-  <!-- Second ad -->
-  <div class="gif-ad2 ads">
-    <a href=""><span>X</span>
-    <img src="img/ads/gif-set1-00010.gif" alt=""></a>
-  </div>
-  <!-- /Second ad -->
-  <!-- Start PROPERTY TYPES -->
-
-  <section class="PROPERTY TYPES">
-    <div class="container">
-      <div id="myBtnContainer">
-        <h2>PROPERTY TYPES</h2>
-        <div class="btns-holder">
-          <button class="btn s" onclick="filterSelection('all')"> Show all</button>
-          <button class="btn" onclick="filterSelection('Apartment')"> Apartment</button>
-          <button class="btn" onclick="filterSelection('Villas')"> Villas</button>
-          <button class="btn" onclick="filterSelection('Chalets')">Chalets</button>
-          <button class="btn" onclick="filterSelection('Land')"> Land</button>
-          <button class="btn" onclick="filterSelection('Building')"> Building</button>
-          <button class="btn" onclick="filterSelection('Office')"> Office</button>
-          <button class="btn" onclick="filterSelection('Medical')"> Clinic</button>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 col-sm-6 column Apartment House property-i">
-          <div class="content">
-            <a href="single property/single.html"> <img src="img/e-state/apartment2.jpg"></a>
-            <h4>Apartment</h4>
-            <p>Lorem ipsum dolor..</p>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="img/New folder/the axis compound.jpg" class="d-block w-100" alt="...">
+          <div class="overlay">
+            <div class="carousel-caption d-none d-md-block">
+              <h1><span class="first-litter">S</span>ell properties</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 column Apartment property-i">
-          <div class="content">
-            <a href="single property/single.html"><img src="img/e-state/apartment1.jpg"></a>
-            <h4>Apartments</h4>
-            <p>Lorem ipsum dolor..</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 column Villas property-i">
-          <div class="content">
-            <a href="single property/single.html"><img src="img/e-state/villa-1.jpg"></a>
-            <h4>Villas</h4>
-            <p>Lorem ipsum dolor..</p>
-          </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6 column Chalets property-i">
-          <div class="content">
-            <a href="single property/single.html"><img src="img/e-state/chalets1.jpg"></a>
-            <h4>Chalets</h4>
-            <p>Lorem ipsum dolor..</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 column Chalets property-i">
-          <div class="content">
-            <a href="single property/single.html"><img src="img/e-state/Chalets2.jpg"></a>
-            <h4>Chalets</h4>
-            <p>Lorem ipsum dolor..</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 column Building property-i">
-          <div class="content">
-            <a href="single property/single.html"><img src="img/e-state/buildings1.jpg"></a>
-            <h4>Buildings</h4>
-            <p>Lorem ipsum dolor..</p>
-          </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6 column Land property-i">
-          <div class="content">
-            <a href="single property/single.html"> <img src="img/e-state/land1.jpg"></a>
-            <h4>Lands</h4>
-            <p>Lorem ipsum dolor..</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 column Medical property-i">
-          <div class="content">
-            <a href="single property/single.html"><img src="img/e-state/Mohandseen.jpg"></a>
-            <h4>Medical</h4>
-            <p>Lorem ipsum dolor..</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6  column Office property-i">
-          <div class="content">
-            <a href="single property/single.html"><img src="img/e-state/office-1.jpg"></a>
-            <h4>Office</h4>
-            <p>Lorem ipsum dolor..</p>
+        <div class="carousel-item">
+          <img src="img/New folder/ydwx2kGzXOvXRLDBgd5tZjqD7oxh7z.jpg" class="d-block w-100" alt="...">
+          <div class="overlay">
+            <div class="carousel-caption">
+              <h1><span class="first-litter">R</span>ent properties</h1>
+              <p class="lead">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            </div>
           </div>
         </div>
       </div>
-  </section>
-  <!-- End PROPERTY TYPES -->
-
-  <!-- Third ad -->
-  <div class="gif-ad3 ads">
-    <a href=""><span>X</span>
-    <img src="img/ads/gif-set2-00010.gif" alt=""></a>
-  </div>
-  <!-- /Third ad -->
-  <!-- End first section -->
-
-  <!-- Start Fav Location section -->
-  <h2>Favorite Locations</h2>
- 
-    <div class="container fav-section">
-  <div class="fav-box row">
-    <div class="l-card">
-        <div class="imgbx">
-            <img src="img/e-state/Emaar Marassi.jpg" alt="">
-        </div>
-            <div class="l-details">
-                <h2>Emaar Marassi</h2>
-                <button type="button" class="btn btn-primary">Read more</button>
-            </div>
-    </div>
-    <div class="l-card">
-        <div class="imgbx">
-            <img src="img/estate-developers2.jpg" alt="">
-        </div>
-            <div class="l-details">
-                <h2>Rock Eden</h2>
-                <button type="button" class="btn btn-primary">Read more</button>
-
-            </div>
-    </div>
-    <div class="l-card">
-        <div class="imgbx">
-            <img src="img/estate-developers5.jpg" alt="">
-        </div>
-            <div class="l-details">
-                <h2>I City October</h2>
-                <button type="button" class="btn btn-primary">Read more</button>
-
-            </div>
-    </div>
-</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- End Fav Location section -->
-
-  <!-- EG RESORTS -->
-  <div class="eg-resorts">
-    <div class="resort-text">
-      <h1>BEST EGYPTION RESORTS</h1>
-      <a href="eg-resorts.html">
-        <button class="btn btn-outline-primary btn-lg">VISIT</button>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
       </a>
-    </div>
-  </div>
-  <!-- END EG RESORTS -->
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
 
-  <!-- Start Price Guide section -->
-  <div class="container">
-    <section class="Price-guide">
-      <div class="Price-content">
-        <h2>Price Guide</h2>
+      <!--searching-->
+      <div class="search-holder">
+        <div class="well-searchbox">
+          <form class="form-horizontal" role="form" action="search page/index.html">
+            <div class="form-group">
+              <label class="col-md-4 control-label">Keyword</label>
+              <input type="text" class="form-control" placeholder="Keyword">
+            </div>
+
+            <div class="form-group">
+              <label class="control-label">Country</label>
+              <div class="Country">
+                <select class="form-control" placeholder="Country">
+                  <option value="">----</option>
+                  <option value="">Country</option>
+                  <option value="">Country 2</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="control-label">City</label>
+              <div class="city">
+                <select class="form-control" placeholder="City">
+                  <option value="">----</option>
+                  <option value="">city 1</option>
+                  <option value="">city 2</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="control-label">property</label>
+              <div class="property">
+                <select class="form-control" placeholder="property">
+                  <option value="">----</option>
+                  <option value="">property 1</option>
+                  <option value="">property 2</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="control-label">Categories</label>
+              <div class="category">
+                <select class="form-control" placeholder="Categories">
+                  <option value="">----</option>
+                  <option value="">Category 1</option>
+                  <option value="">Category 2</option>
+                </select>
+              </div>
+            </div>
+            <div class="btn-cont">
+              <button type="submit" class="btn btn-success hvr-ripple-in">Search</button>
+            </div>
+          </form>
+        </div>
       </div>
-      <div class="card-group">
-        <div class="card col-md-4 col-sm-6 Cairo ">
-          <div class="img-e-holder">
-            <img src="img/cairo.jpg" class="card-img-top" alt="...">
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Greater Cairo</h5>
-            <p class="card-text">Greater Cairo Real Estate Price Guide and Average price per meter </p>
-            <a type="button" class="btn btn-outline-primary">Read More</a>
+      <!--searching-->
 
+    </div>
+    <!-- End Slider  -->
+
+
+    <!--about us-->
+    <div class="marketing">
+      <div class="container">
+        <!-- Three columns of text below the carousel -->
+        <div class="row text-center about marketing-box" style="margin-top: 100px;">
+          <div class="col-lg-4 m-bx">
+            <img class="rounded-circle" src="img/card-1.png" width="140" height="140">
+            <h2>Reserch suburbs</h2>
+            <p>Find your place with our local lifestyle, demographics and market info.</p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4 m-bx">
+            <img class="rounded-circle" src="img/card-2.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>We do home loans</h2>
+            <p>We’ll help you find the right home loan at a great rate..</p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4 m-bx">
+            <img class="rounded-circle" src="img/card-3.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>Track your property</h2>
+            <p>Track the estimated value of your home and stay in touch with your local market.</p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+      </div>
+    </div>
+    <!--/about us-->
+    <div class="gif-ad1 ads">
+      <a href=""><span>X</span>
+        <img src="img/ads/gif-set1-00010.gif" alt=""></a>
+    </div>
+    <!--FQA-->
+
+    <section class="a-q">
+      <div class="container">
+        <h2 class="faq">Frequently Asked Questions</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div id="accordion">
+              <div class="card a-card">
+                <div class="card-header a-card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                      aria-controls="collapseOne">
+                      Collapsible Group Item #1
+                    </button>
+                  </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                    wolf
+                    moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod.
+                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                    shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                    ea
+                    proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw
+                    denim
+                    aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card a-card">
+                <div class="card-header a-card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                      aria-expanded="false" aria-controls="collapseTwo">
+                      Collapsible Group Item #2
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                    wolf
+                    moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod.
+                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                    shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                    ea
+                    proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw
+                    denim
+                    aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card a-card">
+                <div class="card-header a-card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                      aria-expanded="false" aria-controls="collapseThree">
+                      Collapsible Group Item #3
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                    wolf
+                    moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod.
+                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                    shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                    ea
+                    proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw
+                    denim
+                    aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 10 mins ago</small>
+          <div class="col-md-6 faq-image">
+            <img src="img/FAQ.svg" class="faq-2">
           </div>
         </div>
-        <div class="card col-md-4 col-sm-6 alexandria ">
-          <div class="img-a-holder">
-            <img src="img/alexandria2.jpg" class="card-img-top" alt="...">
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Alexandria</h5>
-            <p class="card-text">Alexandria real estate price guide and Average price per meter</p>
-            <a type="button" class="btn btn-outline-primary">Read More</a>
-
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 10 mins ago</small>
-          </div>
-        </div>
-
+        <a href="faq/FAQ.html" type="button" class="btn btn-secondary">Read more FAQ</a>
       </div>
     </section>
-  </div>
-  <!-- End Price Guide section -->
+    <!-- Second ad -->
+    <div class="gif-ad2 ads">
+      <a href=""><span>X</span>
+        <img src="img/ads/gif-set1-00010.gif" alt=""></a>
+    </div>
+    <!-- /Second ad -->
+    <!-- Start PROPERTY TYPES -->
 
-  <!-- Fourth ad -->
-  <div class="gif-ad4 ads">
-   <a href=""> <span>X</span>
-    <img src="img/ads/swimradar.gif" alt=""></a>
-  </div>
-  <!-- /Fourth ad -->
-
-  <!-- Start DEAL OF THE DAY section -->
-  <section class="deal">
-    <div class="container">
-      <div class="section-header">
-        <h2 class="section-heading">
-          Deal Of The Day
-        </h2>
-      </div>
-      <div class="cards-wrapper deal-box">
-        <div class="deal-card col-md-4 col-sm-6">
-          <div class="card-img-wrapper">
-            <img src="img/e-state/Emaar Marassi.jpg" alt="CEO">
+    <section class="PROPERTY TYPES">
+      <div class="container">
+        <div id="myBtnContainer">
+          <h2>PROPERTY TYPES</h2>
+          <div class="btns-holder">
+            <button class="btn s" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('Apartment')"> Apartment</button>
+            <button class="btn" onclick="filterSelection('Villas')"> Villas</button>
+            <button class="btn" onclick="filterSelection('Chalets')">Chalets</button>
+            <button class="btn" onclick="filterSelection('Land')"> Land</button>
+            <button class="btn" onclick="filterSelection('Building')"> Building</button>
+            <button class="btn" onclick="filterSelection('Office')"> Office</button>
+            <button class="btn" onclick="filterSelection('Medical')"> Clinic</button>
           </div>
-          <div class="card-info">
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 column Apartment House property-i">
+            <div class="content">
+              <a href="single property/single.html"> <img src="img/e-state/apartment2.jpg"></a>
+              <h4>Apartment</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 column Apartment property-i">
+            <div class="content">
+              <a href="single property/single.html"><img src="img/e-state/apartment1.jpg"></a>
+              <h4>Apartments</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 column Villas property-i">
+            <div class="content">
+              <a href="single property/single.html"><img src="img/e-state/villa-1.jpg"></a>
+              <h4>Villas</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 column Chalets property-i">
+            <div class="content">
+              <a href="single property/single.html"><img src="img/e-state/chalets1.jpg"></a>
+              <h4>Chalets</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 column Chalets property-i">
+            <div class="content">
+              <a href="single property/single.html"><img src="img/e-state/Chalets2.jpg"></a>
+              <h4>Chalets</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 column Building property-i">
+            <div class="content">
+              <a href="single property/single.html"><img src="img/e-state/buildings1.jpg"></a>
+              <h4>Buildings</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 column Land property-i">
+            <div class="content">
+              <a href="single property/single.html"> <img src="img/e-state/land1.jpg"></a>
+              <h4>Lands</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 column Medical property-i">
+            <div class="content">
+              <a href="single property/single.html"><img src="img/e-state/Mohandseen.jpg"></a>
+              <h4>Medical</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6  column Office property-i">
+            <div class="content">
+              <a href="single property/single.html"><img src="img/e-state/office-1.jpg"></a>
+              <h4>Office</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- End PROPERTY TYPES -->
+
+    <!-- Third ad -->
+    <div class="gif-ad3 ads">
+      <a href=""><span>X</span>
+        <img src="img/ads/gif-set2-00010.gif" alt=""></a>
+    </div>
+    <!-- /Third ad -->
+    <!-- End first section -->
+
+    <!-- Start Fav Location section -->
+    <h2>Favorite Locations</h2>
+
+    <div class="container fav-section">
+      <div class="fav-box row">
+        <div class="l-card">
+          <div class="imgbx">
+            <img src="img/e-state/Emaar Marassi.jpg" alt="">
+          </div>
+          <div class="l-details">
             <h2>Emaar Marassi</h2>
-            <h5>1,524,322 EGP</h5>
-            <h3>1,135,150 EGP</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, facilis.</p>
-            <a class="btn btn-primary"  href="single property/single.html"> Read More</a>
+            <button type="button" class="btn btn-primary">Read more</button>
           </div>
         </div>
-        <div class="deal-card col-md-4 col-sm-6">
-          <div class="card-img-wrapper">
-            <img src="img/e-state/Mohandseen.jpg" alt="CEO">
+        <div class="l-card">
+          <div class="imgbx">
+            <img src="img/estate-developers2.jpg" alt="">
           </div>
-          <div class="card-info">
-            <h2>Clinic</h2>
-            <h5>1,135,150 EGP</h5>
-            <h3>930,650 EGP</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, facilis.</p>
-            <a class="btn btn-primary" href="single property/single.html"> Read More</a>
+          <div class="l-details">
+            <h2>Rock Eden</h2>
+            <button type="button" class="btn btn-primary">Read more</button>
+
           </div>
         </div>
-        <div class="deal-card col-md-4 col-sm-6">
-          <div class="card-img-wrapper">
-            <img src="img/e-state/apartment-1.jpeg" alt="CEO">
+        <div class="l-card">
+          <div class="imgbx">
+            <img src="img/estate-developers5.jpg" alt="">
           </div>
-          <div class="card-info">
-            <h2>Apartment</h2>
-            <h5>1,935,550 EGP</h5>
-            <h3>1,500,00 EGP</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, facilis.</p>
-            <a class="btn btn-primary" href="single property/single.html"> Read More</a>
+          <div class="l-details">
+            <h2>I City October</h2>
+            <button type="button" class="btn btn-primary">Read more</button>
+
           </div>
         </div>
       </div>
     </div>
-  </section>
-  <!-- End DEAL OF THE DAY section -->
 
-  <!-- ====== start estate-dev1 ======== -->
-  <div class="estate-dev1">
-    <h2>Hassan Allam Properties</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- End Fav Location section -->
+
+    <!-- EG RESORTS -->
+    <div class="eg-resorts">
+      <div class="resort-text">
+        <h1>BEST EGYPTION RESORTS</h1>
+        <a href="eg-resorts.html">
+          <button class="btn btn-outline-primary btn-lg">VISIT</button>
+        </a>
+      </div>
+    </div>
+    <!-- END EG RESORTS -->
+
+    <!-- Start Price Guide section -->
     <div class="container">
-      <div class="row">
-        <div id="hassan-allam" class="carousel slide carousel-fade" data-bs-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-bs-target="#hassan-allam" data-bs-slide-to="0" class="active"></li>
-            <li data-bs-target="#hassan-allam" data-bs-slide-to="1"></li>
-            <li data-bs-target="#hassan-allam" data-bs-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="img/hassan-allam.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="img/hassan-allam2.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="img/hassan-allam3.jpg" class="d-block w-100" alt="...">
-            </div>
-          </div>
+      <section class="Price-guide">
+        <div class="Price-content">
+          <h2>Price Guide</h2>
         </div>
+        <div class="card-group">
+          <div class="card col-md-4 col-sm-6 Cairo ">
+            <div class="img-e-holder">
+              <img src="img/cairo.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Greater Cairo</h5>
+              <p class="card-text">Greater Cairo Real Estate Price Guide and Average price per meter </p>
+              <a type="button" class="btn btn-outline-primary">Read More</a>
 
-        <div class="about-text">
-          <h2>about</h2>
-          <p class="lead">Hassan Allam Properties (HAP) draws on decades of experience in the construction field. Their
-            know-how has resulted in the development of high-end residential compounds in key upcoming locations around
-            Egypt. Communities such as Swan Lake in Katameya and 6th of October City have received plenty of praise from
-            residents. The developments are designed to offer luxury, livability, and comfort.</p>
-          <div class="contact-adjust">
-            <h2>contact : <span>19172 (hotline), </span></h2>
-            <a href="Seller-Profile.html" class="hvr-icon-forward"><span>Website</span> <i class="fas fa-share-square hvr-icon"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="estate-dev2"><br>
-    <h2>Memaar al morshedy</h2>
-    <div class="container">
-      <div class="row">
-        <div id="almorshedy" class="carousel slide carousel-fade" data-bs-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-bs-target="#almorshedy" data-bs-slide-to="0" class="active"></li>
-            <li data-bs-target="#almorshedy" data-bs-slide-to="1"></li>
-            <li data-bs-target="#almorshedy" data-bs-slide-to="2"></li>
-            <li data-bs-target="#almorshedy" data-bs-slide-to="3"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="img/almorshedy.jpg" class="d-block w-100" alt="...">
             </div>
-            <div class="carousel-item">
-              <img src="img/almorshedy3.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="img/almorshedy4.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="img/elmorshedy.jpg" class="d-block w-100" alt="...">
+            <div class="card-footer">
+              <small class="text-muted">Last updated 10 mins ago</small>
             </div>
           </div>
-        </div>
+          <div class="card col-md-4 col-sm-6 alexandria ">
+            <div class="img-a-holder">
+              <img src="img/alexandria2.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Alexandria</h5>
+              <p class="card-text">Alexandria real estate price guide and Average price per meter</p>
+              <a type="button" class="btn btn-outline-primary">Read More</a>
 
-        <div class="about-text">
-          <h2>about</h2>
-          <p class="lead">Hassan Allam Properties (HAP) draws on decades of experience in the construction field. Their
-            know-how has resulted in the development of high-end residential compounds in key upcoming locations around
-            Egypt. Communities such as Swan Lake in Katameya and 6th of October City have received plenty of praise from
-            residents. The developments are designed to offer luxury, livability, and comfort.</p>
-          <div class="contact-adjust">
-            <h2>contact : <span>19172 (hotline), </span></h2>
-            <a href="Seller-Profile.html" class="hvr-icon-forward"><span>Website</span> <i class="fas fa-share-square hvr-icon"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <section class="best-offers">
-    <div class="container">
-      <div class="row">
-        <p class="offer-line">WHAT WE OFFER</p>
-        <h2 class="">Exclusive Offer For You</h2>
-
-        <div class="offers-container">
-          <div class="offer">
-            <div class="offer-img"><img src="img/offer1.jpg" alt=""></div>
-            <div class="offer-det">
-              <div class="discount">
-                <span class="del">300,000EP</span> <span>270,000EP</span>
-              </div>
-              <div class="flat-det">
-                <span><i class="fas fa-bed" style="opacity: .8; font-size: 13px;"></i> 3</span> <span><i
-                    class="fas fa-shower" style="opacity: .8; font-size: 13px;"></i> 1</span> <span><i
-                    class="fas fa-ruler-horizontal" style="opacity: .8; font-size: 13px;"></i> 190m</span>
-              </div>
-              <p>6th of October city</p>
-              <a href="single property/single.html" class="btn btn-primary hvr-pop">Buy Now</a>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 10 mins ago</small>
             </div>
           </div>
 
-          <div class="offer">
-            <div class="offer-img"><img src="img/offer2.jpg" alt=""></div>
-            <div class="offer-det">
-              <div class="discount">
-                <span class="del">$400,000</span> <span>$380,000</span>
-              </div>
-              <div class="flat-det">
-                <span><i class="fas fa-bed" style="opacity:.8; font-size: 13px;"></i> 4</span> <span><i
-                    class="fas fa-shower" style="opacity: .8; font-size: 13px;"></i> 2</span> <span><i
-                    class="fas fa-ruler-horizontal" style="opacity: .8; font-size: 13px;"></i> 250m</span>
-              </div>
-              <p>el-tagamoa el-khames</p>
-              <a href="single property/single.html" class="btn btn-primary hvr-pop">Buy Now</a>
-            </div>
-          </div>
-
-          <div class="offer">
-            <div class="offer-img"><img src="img/offer3.jpg" alt=""></div>
-            <div class="offer-det">
-              <div class="discount">
-                <span class="del">$300,000</span> <span>$270,000</span>
-              </div>
-              <div class="flat-det">
-                <span><i class="fas fa-bed" style="opacity: .8; font-size: 13px;"></i> 3</span> <span><i
-                    class="fas fa-shower" style="opacity: .8; font-size: 13px;"></i> 1</span> <span><i
-                    class="fas fa-ruler-horizontal" style="opacity: .8; font-size: 13px;"></i> 190m</span>
-              </div>
-              <p>6th of October city</p>
-              <a href="single property/single.html" class="btn btn-primary hvr-pop">Buy Now</a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
-
-  <!--start new arrive -->
-  <section class="container recent">
-    <h2>RECENT PROPERTIES</h2>
-    <div class="row">
-      <div class="cardd col-md-4 col-sm-6">
-        <img class="img-cardd" src="img/property-3.jpg" width="100% " height="100%">
-        <div class="overlay">
-          <div class="text">
-            <div class="title">
-              <h3>204 Mount
-                Olive Road Two</h3>
-            </div> <a href="single property/single.html">
-              <div class="price_box">
-                <span class="price">
-                  RENT : 12000$
-                </span>
-              </div>
-            </a>
-            <br>
-            <div class="info">
-             <P class="in"><Span class="area">&nbsp; Area </span> <Span class="area">  &nbsp;  &nbsp; &nbsp;<i class="fas fa-bed"> </i> </Span> <i class="fas fa-bath"> </i>  <i class="fas fa-warehouse"> </i> </P>
-              <P class="in"> <span >340m<sup>2</sup></span><Span>3</Span><Span>1</Span><Span>1</Span></P>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="cardd col-md-4 col-sm-6">
-        <img class="img-cardd" src="img/property-6.jpg" width="100% " height="100%">
-        <div class="overlay">
-          <div class="text">
-            <div class="title">
-              <h3>204 Mount
-                Olive Road Two</h3>
-            </div>
-            <a href="single property/single.html">
-            <div class="price_box">
-              <span class="price">
-                RENT : 12000$
-                </span>
-              </div>
-            </a>
-            <br>
-            <div class="info">
-              <P class="in"><Span class="area">&nbsp; Area </span> <Span class="area">  &nbsp;  &nbsp; &nbsp;<i class="fas fa-bed"> </i> </Span> <i class="fas fa-bath"> </i>  <i class="fas fa-warehouse"> </i> </P>
-               <P class="in"> <span >340m<sup>2</sup></span><Span>3</Span><Span>1</Span><Span>1</Span></P>
-             </div>
-          </div>
-        </div>
-      </div>
-      <div class="cardd col-md-4 col-sm-6">
-        <img class="img-cardd" src="img/property-7.jpg" width="100% " height="100%">
-        <div class="overlay">
-          <div class="text">
-            <div class="title">
-              <h3>204 Mount
-                Olive Road Two</h3>
-            </div>
-            <a href="single property/single.html">
-            <div class="price_box">
-              <span class="price">
-                RENT : 12000$
-                </span>
-              </div>
-            </a>
-            <br>
-            <div class="info">
-              <P class="in"><Span class="area">&nbsp; Area </span> <Span class="area">  &nbsp;  &nbsp; &nbsp;<i class="fas fa-bed"> </i> </Span> <i class="fas fa-bath"> </i>  <i class="fas fa-warehouse"> </i> </P>
-               <P class="in"> <span >340m<sup>2</sup></span><Span>3</Span><Span>1</Span><Span>1</Span></P>
-             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!--end new arrive -->
-
-  <!--start category house -->
-
-  <section class="container house">
-    <h2>HOUSE</h2>
-    <div class="row">
-      <div class="cardd ">
-        <img class="img-cardd" src="img/dfe9a4d7c2d7f67837d568e0f7cb9823-p_e.jpg" width="100% " height="100%">
-        <div class="overlay">
-          <div class="text">
-            <div class="title">
-              <h3>204 Mount
-                Olive Road Two</h3>
-              </div> <a href="single property/single.html">
-                <div class="price_box">
-                  <span class="price">
-                  sale : 900,000$
-                </span>
-              </div>
-            </a>
-            <br>
-            <div class="info">
-              <P class="in"><Span class="area">&nbsp; Area </span> <Span class="area">  &nbsp;  &nbsp; &nbsp;<i class="fas fa-bed"> </i> </Span> <i class="fas fa-bath"> </i>  <i class="fas fa-warehouse"> </i> </P>
-               <P class="in"> <span >340m<sup>2</sup></span><Span>3</Span><Span>1</Span><Span>1</Span></P>
-             </div>
-          </div>
-        </div>
-      </div>
-      <div class="cardd ">
-        <img class="img-cardd" src="img/b170c0823a4d0ecedebc48345b1b6ff5-p_e.jpg" width="100% " height="100%">
-        <div class="overlay">
-          <div class="text">
-            <div class="title">
-              <h3>204 Mount
-                Olive Road Two</h3>
-            </div>
-            <a href="single property/single.html">
-            <div class="price_box">
-              <span class="price">
-                  sale : 320000$
-                </span>
-              </div>
-            </a>
-            <br>
-            <div class="info">
-              <P class="in"><Span class="area">&nbsp; Area </span> <Span class="area">  &nbsp;  &nbsp; &nbsp;<i class="fas fa-bed"> </i> </Span> <i class="fas fa-bath"> </i>  <i class="fas fa-warehouse"> </i> </P>
-               <P class="in"> <span >340m<sup>2</sup></span><Span>3</Span><Span>1</Span><Span>1</Span></P>
-             </div>
-          </div>
-        </div>
-      </div>
-      <div class="cardd ">
-        <img class="img-cardd" src="img/property-6.jpg" width="100% " height="100%">
-        <div class="overlay">
-          <div class="text">
-            <div class="title">
-              <h3>204 Mount
-                Olive Road Two</h3>
-            </div>
-            <a href="single property/single.html">
-            <div class="price_box">
-              <span class="price">
-                  RENT : 12000$
-                </span>
-              </div>
-            </a>
-            <br>
-            <div class="info">
-              <P class="in"><Span class="area">&nbsp; Area </span> <Span class="area">  &nbsp;  &nbsp; &nbsp;<i class="fas fa-bed"> </i> </Span> <i class="fas fa-bath"> </i>  <i class="fas fa-warehouse"> </i> </P>
-               <P class="in"> <span >340m<sup>2</sup></span><Span>3</Span><Span>1</Span><Span>1</Span></P>
-             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!--end category house -->
-
-  <!--start category flat -->
-
-
-  <section class="container flat">
-    <h2>FLAT</h2>
-    <div class="row">
-      <div class="cardd ">
-        <img class="img-cardd" src="img/image-0-1024x1024.webp" width="100% " height="100%">
-        <div class="overlay">
-          <div class="text">
-            <div class="title">
-              <h3>204 Mount
-                Olive Road Two</h3>
-              </div> <a href="single property/single.html">
-                <div class="price_box">
-                  <span class="price">
-                  RENT : 6000$
-                </span>
-              </div>
-            </a>
-            <br>
-            <div class="info">
-              <P class="in"><Span class="area">&nbsp; Area </span> <Span class="area">  &nbsp;  &nbsp; &nbsp;<i class="fas fa-bed"> </i> </Span> <i class="fas fa-bath"> </i>  <i class="fas fa-warehouse"> </i> </P>
-               <P class="in"> <span >340m<sup>2</sup></span><Span>3</Span><Span>1</Span><Span>1</Span></P>
-             </div>
-          </div>
-        </div>
-      </div>
-      <div class="cardd ">
-        <img class="img-cardd" src="img/image-0-1024x1024 (1).webp" width="100% " height="100%">
-        <div class="overlay">
-          <div class="text">
-            <div class="title">
-              <h3>204 Mount
-                Olive Road Two</h3>
-            </div>
-            <a href="single property/single.html">
-            <div class="price_box">
-              <span class="price">
-                  sale : 100000$
-                </span>
-              </div>
-            </a>
-            <br>
-            <div class="info">
-              <P class="in"><Span class="area">&nbsp; Area </span> <Span class="area">  &nbsp;  &nbsp; &nbsp;<i class="fas fa-bed"> </i> </Span> <i class="fas fa-bath"> </i>  <i class="fas fa-warehouse"> </i> </P>
-               <P class="in"> <span >340m<sup>2</sup></span><Span>3</Span><Span>1</Span><Span>1</Span></P>
-             </div>
-          </div>
-        </div>
-      </div>
-      <div class="cardd ">
-        <img class="img-cardd" src="img/image-0-1024x1024 (2).webp" width="100% " height="100%">
-        <div class="overlay">
-          <div class="text">
-            <div class="title">
-              <h3>204 Mount
-                Olive Road Two</h3>
-            </div>
-            <a href="single property/single.html">
-            <div class="price_box">
-              <span class="price">
-                  RENT : 4000$
-                </span>
-              </div>
-            </a>
-            <br>
-            <div class="info">
-              <P class="in"><Span class="area">&nbsp; Area </span> <Span class="area">  &nbsp;  &nbsp; &nbsp;<i class="fas fa-bed"> </i> </Span> <i class="fas fa-bath"> </i>  <i class="fas fa-warehouse"> </i> </P>
-               <P class="in"> <span >340m<sup>2</sup></span><Span>3</Span><Span>1</Span><Span>1</Span></P>
-             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!--end category flat -->
-
-
-  <!--start category Restaurant -->
-
-
-  <section class="container Restaurant">
-    <h2>RESTAURANT</h2>
-    <div class="row">
-      <div class="cardd ">
-        <img class="img-cardd" src="img/20417-1.jpg" width="100% " height="100%">
-        <div class="overlay">
-          <div class="text">
-            <div class="title">
-              <h3>204 Mount
-                Olive Road Two</h3>
-              </div> <a href="single property/single.html">
-                <div class="price_box">
-                  <span class="price">
-                  RENT : 15000$
-                </span>
-              </div>
-            </a>
-            <br>
-            <div class="info">
-              <P class="in"><Span class="area">&nbsp; Area </span> <Span class="area">    <i class="fas fa-chair"></i> </Span> <i class="fas fa-table"></i>  <i class="fas fa-parking"></i> </P>
-               <P class="in"> <span >340m<sup>2</sup></span><Span>3</Span><Span>1</Span><Span><i class="fa fa-check"aria-hidden="true"></i></Span></P>
-             </div>
-          </div>
-        </div>
-      </div>
-      <div class="cardd ">
-        <img class="img-cardd" src="img/38877-Bar_Louie_Renaissance_Commons_1.jpg" width="100% " height="100%">
-        <div class="overlay">
-          <div class="text">
-            <div class="title">
-              <h3>204 Mount
-                Olive Road Two</h3>
-            </div>
-            <a href="single property/single.html">
-            <div class="price_box">
-              <span class="price">
-                  RENT : 9000$
-                </span>
-              </div>
-            </a>
-            <br>
-            <div class="info">
-              <P class="in"><Span class="area">&nbsp; Area </span> <Span class="area">    <i class="fas fa-chair"></i> </Span> <i class="fas fa-table"></i>  <i class="fas fa-parking"></i> </P>
-               <P class="in"> <span >340m<sup>2</sup></span><Span>3</Span><Span>1</Span><Span><i class="fa fa-check"aria-hidden="true"></i></Span></P>
-             </div>
-          </div>
-        </div>
-      </div>
-      <div class="cardd ">
-        <img class="img-cardd" src="img/97205-Texas_de_Brazil_-_interior.jpg" width="100% " height="100%">
-        <div class="overlay">
-          <div class="text">
-            <div class="title">
-              <h3>204 Mount
-                Olive Road Two</h3>
-            </div>
-            <a href="single property/single.html">
-            <div class="price_box">
-              <span class="price">
-                  RENT : 12000$
-                </span>
-              </div>                        
-            </a>
-            <br>
-            <div class="info">
-              <P class="in"><Span class="area">&nbsp; Area </span> <Span class="area">    <i class="fas fa-chair"></i> </Span> <i class="fas fa-table"></i>  <i class="fas fa-parking"></i> </P>
-               <P class="in"> <span >340m<sup>2</sup></span><Span>3</Span><Span>1</Span><Span><i class="fa fa-check"aria-hidden="true"></i></Span></P>
-             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!--end category Restaurant -->
-
-
-
-
-  <!--start video -->
-
-  <section class="container video-cont">
-    <iframe width="100%" height="500" src="https://www.youtube.com/embed/Kat6TpTvNqo" frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen></iframe>
-  </section>
-
-  <!--end video -->
-
-
-  <!--start category Garage -->
-
-
-
-
-  <section class="container Garage">
-    <h2>GARAGE</h2>
-    <div class="row">
-      <div class="cardd ">
-        <img class="img-cardd" src="img/WINH-Jan-2020-569x306-c.jpg" width="100% " height="100%">
-        <div class="overlay">
-          <div class="text">
-            <div class="title">
-              <h3>Winchester House
-              </h3>
-            </div> <a href="single property/single.html">
-              <div class="price_box">
-                <span class="price">
-                  RENT : 2000$
-                </span>
-              </div>
-            </a>
-            <br>
-            <div class="info">
-              <P class="in"><Span class="area"> Area </span> <Span class="area">  &nbsp; <i class="fas fa-car-side"></i> </i> </Span>  </P>
-               <P class="in"> <span >340m<sup>2</sup></span><Span>1</Span></P>
-             </div>
-          </div>
-        </div>
-      </div>
-      <div class="cardd ">
-        <img class="img-cardd" src="img/ASTP_edited-569x306-c.jpg" width="100% " height="100%">
-        <div class="overlay">
-          <div class="text">
-            <div class="title">
-              <h3>Opp. 3 Aston Way </h3>
-            </div>
-            <a href="single property/single.html">
-            <div class="price_box">
-              <span class="price">
-                  RENT : 2000$
-                </span>
-              </div>
-            </a>
-            <br>
-            <div class="info">
-              <P class="in"><Span class="area"> Area </span> <Span class="area">  <i class="fas fa-car-side"></i> </i> </Span>  </P>
-               <P class="in"> <span >340m<sup>2</sup></span><Span>3</Span></P>
-             </div>
-          </div>
-        </div>
-      </div>
-      <div class="cardd ">
-        <img class="img-cardd" src="img/IMG_1218.jpg" width="100% " height="100%">
-        <div class="overlay">
-          <div class="text">
-            <div class="title">
-              <h3>204 Mount
-                Olive Road Two</h3>
-            </div>
-            <a href="single property/single.html">
-            <div class="price_box">
-              <span class="price">
-                  RENT : 3000$
-                </span>
-              </div>
-            </a>
-            <br>
-            <div class="info">
-              <P class="in"><Span class="area"> Area </span> <Span class="area">  <i class="fas fa-car-side"></i> </i> </Span>  </P>
-               <P class="in"> <span >340m<sup>2</sup></span><Span>1</Span></P>
-             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!--end category Garage -->
-
-
-  <!--start recommended -->
-
-  
-  <section class="container recommend">
-    <h2>RECOMMEND</h2>
-    <div class="row">
-      <div class="cardd ">
-        <img class="img-cardd" src="img/property-10.jpg" width="100% " height="100%">
-        <div class="overlay">
-          <div class="text">
-            <div class="title">
-              <h3>204 Mount
-                Olive Road Two</h3>
-              </div> <a href="single property/single.html">
-                <div class="price_box">
-                  <span class="price">
-                  RENT : 12000$
-                </span>
-              </div>
-            </a>
-            <br>
-            <div class="info">
-              <P class="in"><Span class="area">&nbsp; Area </span> <Span class="area">  &nbsp;  &nbsp; &nbsp;<i class="fas fa-bed"> </i> </Span> <i class="fas fa-bath"> </i>  <i class="fas fa-warehouse"> </i> </P>
-               <P class="in"> <span >340m<sup>2</sup></span><Span>3</Span><Span>1</Span><Span>1</Span></P>
-             </div>
-          </div>
-        </div>
-      </div>
-      <div class="cardd ">
-        <img class="img-cardd" src="img/property-7.jpg" width="100% " height="100%">
-        <div class="overlay">
-          <div class="text">
-            <div class="title">
-              <h3>204 Mount
-                Olive Road Two</h3>
-            </div>
-            <a href="single property/single.html">
-            <div class="price_box">
-              <span class="price">
-                  RENT : 12000$
-                </span>
-              </div>
-            </a>
-            <br>
-            <div class="info">
-              <P class="in"><Span class="area">&nbsp; Area </span> <Span class="area">  &nbsp;  &nbsp; &nbsp;<i class="fas fa-bed"> </i> </Span> <i class="fas fa-bath"> </i>  <i class="fas fa-warehouse"> </i> </P>
-               <P class="in"> <span >340m<sup>2</sup></span><Span>3</Span><Span>1</Span><Span>1</Span></P>
-             </div>
-          </div>
-        </div>
-      </div>
-      <div class="cardd ">
-        <img class="img-cardd" src="img/property-3.jpg" width="100% " height="100%">
-        <div class="overlay">
-          <div class="text">
-            <div class="title">
-              <h3>204 Mount
-                Olive Road Two</h3>
-            </div>
-            <a href="single property/single.html">
-              <div class="price_box">
-                <span class="price">
-                  RENT : 12000$
-                </span>
-              </div>
-            </a>
-            <br>
-            <div class="info">
-              <P class="in"><Span class="area">&nbsp; Area </span> <Span class="area">  &nbsp;  &nbsp; &nbsp;<i class="fas fa-bed"> </i> </Span> <i class="fas fa-bath"> </i>  <i class="fas fa-warehouse"> </i> </P>
-               <P class="in"> <span >340m<sup>2</sup></span><Span>3</Span><Span>1</Span><Span>1</Span></P>
-             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!--end recommended -->
-
-
-  <!--start category satisfied-customers -->
-
-  <div class="background">
-    <div class="aa">
-
-      <section class="satisfied-customers">
-        <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class=" customer">
-                <div class="img-holder">
-                  <img class="customer-img" src="img/6.webp"><br>
-                  <class class="name"> &nbsp; &nbsp; &nbsp; Marisar</class>
-                </div>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ex nostrum molestiae
-                  necessitatibus praesentium, molestias eveniet doloribus ratione illo quidem exercitationem earum
-                  dolores velit alias consequuntur. Ut eaque reiciendis amet? </p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class=" customer">
-                <div class="img-holder">
-                  <img class="customer-img" src="img/paris.jpg">
-                  <br>
-                  <class class="name"> &nbsp; &nbsp; &nbsp;Marwan</class>
-                </div>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ex nostrum molestiae </p>
-
-
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class=" customer">
-                <div class="img-holder">
-                  <img class="customer-img" src="img/paris.jpg"><br>
-                  <class class="name"> &nbsp; &nbsp; &nbsp;Ahmed </class>
-                </div>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ex nostrum molestiae
-                  necessitatibus praesentium, molestias eveniet doloribus ratione illo quidem exercitationem earum
-                  dolores velit alias consequuntur. Ut eaque reiciendis amet? </p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class=" customer">
-                <div class="img-holder">
-                  <img class="customer-img" src="img/image-0-1024x1024.webp"><br>
-                  <class class="name"> &nbsp; &nbsp; &nbsp; Mark </class>
-                </div>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ex nostrum molestiae
-                  necessitatibus praesentium, molestias eveniet doloribus ratione illo quidem exercitationem earum
-                  dolores velit alias consequuntur. Ut eaque reiciendis amet? </p>
-              </div>
-            </div>
-          </div>
-          <a class="carousel-control-prev prev" href="#carouselExampleControls1" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon text-dark" aria-hidden="true"></span>
-            <span class="sr-only text-dark">Previous</span>
-          </a>
-          <a class="carousel-control-next  next" href="#carouselExampleControls1" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
         </div>
       </section>
     </div>
-  </div>
-  <!--end category satisfied-customers -->
+    <!-- End Price Guide section -->
 
-
-  <!--start footer -->
-
-
-  <section class="footer row">
-    <div class="carddf cardf-1"> <br>
-      <h4>R-state site</h4>
-      <br>
-      <p>
-        Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Necessitatibus <br> at fugiat quos praesentium sed
-        similique <br>
-        illum amet unde in recusandae voluptates <br> aliquam minima blanditiis nam, deleniti <br> beatae asperiores
-        accusamus
-        laboriosam!
-      </p>
+    <!-- Fourth ad -->
+    <div class="gif-ad4 ads">
+      <a href=""> <span>X</span>
+        <img src="img/ads/swimradar.gif" alt=""></a>
     </div>
-    <div class="carddf"><br>
-      <h4>
-        our service
-      </h4>
-      <br>
-      <p>
-        <a href="#">
-          Advice
-        </a>
-      </p>
-      <p>
-        <a href="#">
-          Price guide
+    <!-- /Fourth ad -->
 
-        </a>
-      </p>
-      <p>
-        <a href="#">
-          Advertise your property
-        </a>
-      </p>
-      <p>
-        <a href="#">
-          Real estate appraisal
-        </a>
-      </p>
-      <p>
-        <a href="#">
-          our partners
-        </a>
-      </p>
-    </div>
-    <div class="carddf"><br>
-      <h4>
-        other service
-      </h4><br>
-      <p>
-        <a href="#">
-          Jops
+    <!-- Start DEAL OF THE DAY section -->
+    <section class="deal">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-heading">
+            Deal Of The Day
+          </h2>
+        </div>
+        <div class="cards-wrapper deal-box">
+          <div class="deal-card col-md-4 col-sm-6">
+            <div class="card-img-wrapper">
+              <img src="img/e-state/Emaar Marassi.jpg" alt="CEO">
+            </div>
+            <div class="card-info">
+              <h2>Emaar Marassi</h2>
+              <h5>1,524,322 EGP</h5>
+              <h3>1,135,150 EGP</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, facilis.</p>
+              <a class="btn btn-primary" href="single property/single.html"> Read More</a>
+            </div>
+          </div>
+          <div class="deal-card col-md-4 col-sm-6">
+            <div class="card-img-wrapper">
+              <img src="img/e-state/Mohandseen.jpg" alt="CEO">
+            </div>
+            <div class="card-info">
+              <h2>Clinic</h2>
+              <h5>1,135,150 EGP</h5>
+              <h3>930,650 EGP</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, facilis.</p>
+              <a class="btn btn-primary" href="single property/single.html"> Read More</a>
+            </div>
+          </div>
+          <div class="deal-card col-md-4 col-sm-6">
+            <div class="card-img-wrapper">
+              <img src="img/e-state/apartment-1.jpeg" alt="CEO">
+            </div>
+            <div class="card-info">
+              <h2>Apartment</h2>
+              <h5>1,935,550 EGP</h5>
+              <h3>1,500,00 EGP</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, facilis.</p>
+              <a class="btn btn-primary" href="single property/single.html"> Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End DEAL OF THE DAY section -->
 
-        </a>
-      </p>
-      <p>
-        <a href="contact us/contactus.html">
-          Contact with us
-        </a>
-      </p>
-      <p>
-        <a href="Terms & Conditions/Terms Conditions.html">
-          terms and conditions
-        </a>
-      </p>
-    </div>
-    <div class="carddf">
-      <div class="copyright "> <br>
-        copyright@GR 10</div>
-      <div class="links "> <br>
-        <h4>
-          Social links
-        </h4> <br>
-        <a href="">
-          <i class="fab fa-facebook"></i></a>&nbsp;&nbsp;
-        <a href=""> <i class="fab fa-twitter"></i> </a>&nbsp;&nbsp;
-        <a href=""><i class="fab fa-instagram"></i> </a>
+    <!-- ====== start estate-dev1 ======== -->
+    <div class="estate-dev1">
+      <h2>Hassan Allam Properties</h2>
+      <div class="container">
+        <div class="row">
+          <div id="hassan-allam" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-bs-target="#hassan-allam" data-bs-slide-to="0" class="active"></li>
+              <li data-bs-target="#hassan-allam" data-bs-slide-to="1"></li>
+              <li data-bs-target="#hassan-allam" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/hassan-allam.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/hassan-allam2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/hassan-allam3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+
+          <div class="about-text">
+            <h2>about</h2>
+            <p class="lead">Hassan Allam Properties (HAP) draws on decades of experience in the construction field.
+              Their
+              know-how has resulted in the development of high-end residential compounds in key upcoming locations
+              around
+              Egypt. Communities such as Swan Lake in Katameya and 6th of October City have received plenty of praise
+              from
+              residents. The developments are designed to offer luxury, livability, and comfort.</p>
+            <div class="contact-adjust">
+              <h2>contact : <span>19172 (hotline), </span></h2>
+              <a href="Seller-Profile.html" class="hvr-icon-forward"><span>Website</span> <i
+                  class="fas fa-share-square hvr-icon"></i></a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </section>
 
-  <!--end footer -->
+    <div class="estate-dev2"><br>
+      <h2>Memaar al morshedy</h2>
+      <div class="container">
+        <div class="row">
+          <div id="almorshedy" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-bs-target="#almorshedy" data-bs-slide-to="0" class="active"></li>
+              <li data-bs-target="#almorshedy" data-bs-slide-to="1"></li>
+              <li data-bs-target="#almorshedy" data-bs-slide-to="2"></li>
+              <li data-bs-target="#almorshedy" data-bs-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/almorshedy.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/almorshedy3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/almorshedy4.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/elmorshedy.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
 
-</div>
+          <div class="about-text">
+            <h2>about</h2>
+            <p class="lead">Hassan Allam Properties (HAP) draws on decades of experience in the construction field.
+              Their
+              know-how has resulted in the development of high-end residential compounds in key upcoming locations
+              around
+              Egypt. Communities such as Swan Lake in Katameya and 6th of October City have received plenty of praise
+              from
+              residents. The developments are designed to offer luxury, livability, and comfort.</p>
+            <div class="contact-adjust">
+              <h2>contact : <span>19172 (hotline), </span></h2>
+              <a href="Seller-Profile.html" class="hvr-icon-forward"><span>Website</span> <i
+                  class="fas fa-share-square hvr-icon"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <section class="best-offers">
+      <div class="container">
+        <div class="row">
+          <p class="offer-line">WHAT WE OFFER</p>
+          <h2 class="">Exclusive Offer For You</h2>
+
+          <div class="offers-container">
+            <div class="offer">
+              <div class="offer-img"><img src="img/offer1.jpg" alt=""></div>
+              <div class="offer-det">
+                <div class="discount">
+                  <span class="del">300,000EP</span> <span>270,000EP</span>
+                </div>
+                <div class="flat-det">
+                  <span><i class="fas fa-bed" style="opacity: .8; font-size: 13px;"></i> 3</span> <span><i
+                      class="fas fa-shower" style="opacity: .8; font-size: 13px;"></i> 1</span> <span><i
+                      class="fas fa-ruler-horizontal" style="opacity: .8; font-size: 13px;"></i> 190m</span>
+                </div>
+                <p>6th of October city</p>
+                <a href="single property/single.html" class="btn btn-primary hvr-pop">Buy Now</a>
+              </div>
+            </div>
+
+            <div class="offer">
+              <div class="offer-img"><img src="img/offer2.jpg" alt=""></div>
+              <div class="offer-det">
+                <div class="discount">
+                  <span class="del">$400,000</span> <span>$380,000</span>
+                </div>
+                <div class="flat-det">
+                  <span><i class="fas fa-bed" style="opacity:.8; font-size: 13px;"></i> 4</span> <span><i
+                      class="fas fa-shower" style="opacity: .8; font-size: 13px;"></i> 2</span> <span><i
+                      class="fas fa-ruler-horizontal" style="opacity: .8; font-size: 13px;"></i> 250m</span>
+                </div>
+                <p>el-tagamoa el-khames</p>
+                <a href="single property/single.html" class="btn btn-primary hvr-pop">Buy Now</a>
+              </div>
+            </div>
+
+            <div class="offer">
+              <div class="offer-img"><img src="img/offer3.jpg" alt=""></div>
+              <div class="offer-det">
+                <div class="discount">
+                  <span class="del">$300,000</span> <span>$270,000</span>
+                </div>
+                <div class="flat-det">
+                  <span><i class="fas fa-bed" style="opacity: .8; font-size: 13px;"></i> 3</span> <span><i
+                      class="fas fa-shower" style="opacity: .8; font-size: 13px;"></i> 1</span> <span><i
+                      class="fas fa-ruler-horizontal" style="opacity: .8; font-size: 13px;"></i> 190m</span>
+                </div>
+                <p>6th of October city</p>
+                <a href="single property/single.html" class="btn btn-primary hvr-pop">Buy Now</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!--start new arrive -->
+    <section class="container recent">
+      <h2>RECENT PROPERTIES</h2>
+      <div class="row">
+        <div class="cardd col-md-4 col-sm-6">
+          <img class="img-cardd" src="img/property-3.jpg" width="100% " height="100%">
+          <div class="overlay">
+            <div class="text">
+              <div class="title">
+                <h3>204 Mount
+                  Olive Road Two</h3>
+              </div> <a href="single property/single.html">
+                <div class="price_box">
+                  <span class="price">
+                    RENT : 12000$
+                  </span>
+                </div>
+              </a>
+              <br>
+              <div class="info">
+                <P class="in"><Span class="area">&nbsp; Area </span> <Span class="area"> &nbsp; &nbsp; &nbsp;<i
+                      class="fas fa-bed"> </i> </Span> <i class="fas fa-bath"> </i> <i class="fas fa-warehouse"> </i>
+                </P>
+                <P class="in"> <span>340m<sup>2</sup></span><Span>3</Span><Span>1</Span><Span>1</Span></P>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cardd col-md-4 col-sm-6">
+          <img class="img-cardd" src="img/property-6.jpg" width="100% " height="100%">
+          <div class="overlay">
+            <div class="text">
+              <div class="title">
+                <h3>204 Mount
+                  Olive Road Two</h3>
+              </div>
+              <a href="single property/single.html">
+                <div class="price_box">
+                  <span class="price">
+                    RENT : 12000$
+                  </span>
+                </div>
+              </a>
+              <br>
+              <div class="info">
+                <P class="in"><Span class="area">&nbsp; Area </span> <Span class="area"> &nbsp; &nbsp; &nbsp;<i
+                      class="fas fa-bed"> </i> </Span> <i class="fas fa-bath"> </i> <i class="fas fa-warehouse"> </i>
+                </P>
+                <P class="in"> <span>340m<sup>2</sup></span><Span>3</Span><Span>1</Span><Span>1</Span></P>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cardd col-md-4 col-sm-6">
+          <img class="img-cardd" src="img/property-7.jpg" width="100% " height="100%">
+          <div class="overlay">
+            <div class="text">
+              <div class="title">
+                <h3>204 Mount
+                  Olive Road Two</h3>
+              </div>
+              <a href="single property/single.html">
+                <div class="price_box">
+                  <span class="price">
+                    RENT : 12000$
+                  </span>
+                </div>
+              </a>
+              <br>
+              <div class="info">
+                <P class="in"><Span class="area">&nbsp; Area </span> <Span class="area"> &nbsp; &nbsp; &nbsp;<i
+                      class="fas fa-bed"> </i> </Span> <i class="fas fa-bath"> </i> <i class="fas fa-warehouse"> </i>
+                </P>
+                <P class="in"> <span>340m<sup>2</sup></span><Span>3</Span><Span>1</Span><Span>1</Span></P>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--end new arrive -->
+
+    <!--start category house -->
+
+    <section class="container house">
+      <h2>HOUSE</h2>
+      <div class="row">
+        <div class="cardd ">
+          <img class="img-cardd" src="img/dfe9a4d7c2d7f67837d568e0f7cb9823-p_e.jpg" width="100% " height="100%">
+          <div class="overlay">
+            <div class="text">
+              <div class="title">
+                <h3>204 Mount
+                  Olive Road Two</h3>
+              </div> <a href="single property/single.html">
+                <div class="price_box">
+                  <span class="price">
+                    sale : 900,000$
+                  </span>
+                </div>
+              </a>
+              <br>
+              <div class="info">
+                <P class="in"><Span class="area">&nbsp; Area </span> <Span class="area"> &nbsp; &nbsp; &nbsp;<i
+                      class="fas fa-bed"> </i> </Span> <i class="fas fa-bath"> </i> <i class="fas fa-warehouse"> </i>
+                </P>
+                <P class="in"> <span>340m<sup>2</sup></span><Span>3</Span><Span>1</Span><Span>1</Span></P>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cardd ">
+          <img class="img-cardd" src="img/b170c0823a4d0ecedebc48345b1b6ff5-p_e.jpg" width="100% " height="100%">
+          <div class="overlay">
+            <div class="text">
+              <div class="title">
+                <h3>204 Mount
+                  Olive Road Two</h3>
+              </div>
+              <a href="single property/single.html">
+                <div class="price_box">
+                  <span class="price">
+                    sale : 320000$
+                  </span>
+                </div>
+              </a>
+              <br>
+              <div class="info">
+                <P class="in"><Span class="area">&nbsp; Area </span> <Span class="area"> &nbsp; &nbsp; &nbsp;<i
+                      class="fas fa-bed"> </i> </Span> <i class="fas fa-bath"> </i> <i class="fas fa-warehouse"> </i>
+                </P>
+                <P class="in"> <span>340m<sup>2</sup></span><Span>3</Span><Span>1</Span><Span>1</Span></P>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cardd ">
+          <img class="img-cardd" src="img/property-6.jpg" width="100% " height="100%">
+          <div class="overlay">
+            <div class="text">
+              <div class="title">
+                <h3>204 Mount
+                  Olive Road Two</h3>
+              </div>
+              <a href="single property/single.html">
+                <div class="price_box">
+                  <span class="price">
+                    RENT : 12000$
+                  </span>
+                </div>
+              </a>
+              <br>
+              <div class="info">
+                <P class="in"><Span class="area">&nbsp; Area </span> <Span class="area"> &nbsp; &nbsp; &nbsp;<i
+                      class="fas fa-bed"> </i> </Span> <i class="fas fa-bath"> </i> <i class="fas fa-warehouse"> </i>
+                </P>
+                <P class="in"> <span>340m<sup>2</sup></span><Span>3</Span><Span>1</Span><Span>1</Span></P>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--end category house -->
+
+    <!--start category flat -->
+
+
+    <section class="container flat">
+      <h2>FLAT</h2>
+      <div class="row">
+        <div class="cardd ">
+          <img class="img-cardd" src="img/image-0-1024x1024.webp" width="100% " height="100%">
+          <div class="overlay">
+            <div class="text">
+              <div class="title">
+                <h3>204 Mount
+                  Olive Road Two</h3>
+              </div> <a href="single property/single.html">
+                <div class="price_box">
+                  <span class="price">
+                    RENT : 6000$
+                  </span>
+                </div>
+              </a>
+              <br>
+              <div class="info">
+                <P class="in"><Span class="area">&nbsp; Area </span> <Span class="area"> &nbsp; &nbsp; &nbsp;<i
+                      class="fas fa-bed"> </i> </Span> <i class="fas fa-bath"> </i> <i class="fas fa-warehouse"> </i>
+                </P>
+                <P class="in"> <span>340m<sup>2</sup></span><Span>3</Span><Span>1</Span><Span>1</Span></P>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cardd ">
+          <img class="img-cardd" src="img/image-0-1024x1024 (1).webp" width="100% " height="100%">
+          <div class="overlay">
+            <div class="text">
+              <div class="title">
+                <h3>204 Mount
+                  Olive Road Two</h3>
+              </div>
+              <a href="single property/single.html">
+                <div class="price_box">
+                  <span class="price">
+                    sale : 100000$
+                  </span>
+                </div>
+              </a>
+              <br>
+              <div class="info">
+                <P class="in"><Span class="area">&nbsp; Area </span> <Span class="area"> &nbsp; &nbsp; &nbsp;<i
+                      class="fas fa-bed"> </i> </Span> <i class="fas fa-bath"> </i> <i class="fas fa-warehouse"> </i>
+                </P>
+                <P class="in"> <span>340m<sup>2</sup></span><Span>3</Span><Span>1</Span><Span>1</Span></P>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cardd ">
+          <img class="img-cardd" src="img/image-0-1024x1024 (2).webp" width="100% " height="100%">
+          <div class="overlay">
+            <div class="text">
+              <div class="title">
+                <h3>204 Mount
+                  Olive Road Two</h3>
+              </div>
+              <a href="single property/single.html">
+                <div class="price_box">
+                  <span class="price">
+                    RENT : 4000$
+                  </span>
+                </div>
+              </a>
+              <br>
+              <div class="info">
+                <P class="in"><Span class="area">&nbsp; Area </span> <Span class="area"> &nbsp; &nbsp; &nbsp;<i
+                      class="fas fa-bed"> </i> </Span> <i class="fas fa-bath"> </i> <i class="fas fa-warehouse"> </i>
+                </P>
+                <P class="in"> <span>340m<sup>2</sup></span><Span>3</Span><Span>1</Span><Span>1</Span></P>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--end category flat -->
+
+
+    <!--start category Restaurant -->
+
+
+    <section class="container Restaurant">
+      <h2>RESTAURANT</h2>
+      <div class="row">
+        <div class="cardd ">
+          <img class="img-cardd" src="img/20417-1.jpg" width="100% " height="100%">
+          <div class="overlay">
+            <div class="text">
+              <div class="title">
+                <h3>204 Mount
+                  Olive Road Two</h3>
+              </div> <a href="single property/single.html">
+                <div class="price_box">
+                  <span class="price">
+                    RENT : 15000$
+                  </span>
+                </div>
+              </a>
+              <br>
+              <div class="info">
+                <P class="in"><Span class="area">&nbsp; Area </span> <Span class="area"> <i class="fas fa-chair"></i>
+                  </Span> <i class="fas fa-table"></i> <i class="fas fa-parking"></i> </P>
+                <P class="in"> <span>340m<sup>2</sup></span><Span>3</Span><Span>1</Span><Span><i class="fa fa-check"
+                      aria-hidden="true"></i></Span></P>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cardd ">
+          <img class="img-cardd" src="img/38877-Bar_Louie_Renaissance_Commons_1.jpg" width="100% " height="100%">
+          <div class="overlay">
+            <div class="text">
+              <div class="title">
+                <h3>204 Mount
+                  Olive Road Two</h3>
+              </div>
+              <a href="single property/single.html">
+                <div class="price_box">
+                  <span class="price">
+                    RENT : 9000$
+                  </span>
+                </div>
+              </a>
+              <br>
+              <div class="info">
+                <P class="in"><Span class="area">&nbsp; Area </span> <Span class="area"> <i class="fas fa-chair"></i>
+                  </Span> <i class="fas fa-table"></i> <i class="fas fa-parking"></i> </P>
+                <P class="in"> <span>340m<sup>2</sup></span><Span>3</Span><Span>1</Span><Span><i class="fa fa-check"
+                      aria-hidden="true"></i></Span></P>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cardd ">
+          <img class="img-cardd" src="img/97205-Texas_de_Brazil_-_interior.jpg" width="100% " height="100%">
+          <div class="overlay">
+            <div class="text">
+              <div class="title">
+                <h3>204 Mount
+                  Olive Road Two</h3>
+              </div>
+              <a href="single property/single.html">
+                <div class="price_box">
+                  <span class="price">
+                    RENT : 12000$
+                  </span>
+                </div>
+              </a>
+              <br>
+              <div class="info">
+                <P class="in"><Span class="area">&nbsp; Area </span> <Span class="area"> <i class="fas fa-chair"></i>
+                  </Span> <i class="fas fa-table"></i> <i class="fas fa-parking"></i> </P>
+                <P class="in"> <span>340m<sup>2</sup></span><Span>3</Span><Span>1</Span><Span><i class="fa fa-check"
+                      aria-hidden="true"></i></Span></P>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--end category Restaurant -->
+
+
+
+
+    <!--start video -->
+
+    <section class="container video-cont">
+      <iframe width="100%" height="500" src="https://www.youtube.com/embed/Kat6TpTvNqo" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </section>
+
+    <!--end video -->
+
+
+    <!--start category Garage -->
+
+
+
+
+    <section class="container Garage">
+      <h2>GARAGE</h2>
+      <div class="row">
+        <div class="cardd ">
+          <img class="img-cardd" src="img/WINH-Jan-2020-569x306-c.jpg" width="100% " height="100%">
+          <div class="overlay">
+            <div class="text">
+              <div class="title">
+                <h3>Winchester House
+                </h3>
+              </div> <a href="single property/single.html">
+                <div class="price_box">
+                  <span class="price">
+                    RENT : 2000$
+                  </span>
+                </div>
+              </a>
+              <br>
+              <div class="info">
+                <P class="in"><Span class="area"> Area </span> <Span class="area"> &nbsp; <i
+                      class="fas fa-car-side"></i> </i> </Span> </P>
+                <P class="in"> <span>340m<sup>2</sup></span><Span>1</Span></P>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cardd ">
+          <img class="img-cardd" src="img/ASTP_edited-569x306-c.jpg" width="100% " height="100%">
+          <div class="overlay">
+            <div class="text">
+              <div class="title">
+                <h3>Opp. 3 Aston Way </h3>
+              </div>
+              <a href="single property/single.html">
+                <div class="price_box">
+                  <span class="price">
+                    RENT : 2000$
+                  </span>
+                </div>
+              </a>
+              <br>
+              <div class="info">
+                <P class="in"><Span class="area"> Area </span> <Span class="area"> <i class="fas fa-car-side"></i> </i>
+                  </Span> </P>
+                <P class="in"> <span>340m<sup>2</sup></span><Span>3</Span></P>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cardd ">
+          <img class="img-cardd" src="img/IMG_1218.jpg" width="100% " height="100%">
+          <div class="overlay">
+            <div class="text">
+              <div class="title">
+                <h3>204 Mount
+                  Olive Road Two</h3>
+              </div>
+              <a href="single property/single.html">
+                <div class="price_box">
+                  <span class="price">
+                    RENT : 3000$
+                  </span>
+                </div>
+              </a>
+              <br>
+              <div class="info">
+                <P class="in"><Span class="area"> Area </span> <Span class="area"> <i class="fas fa-car-side"></i> </i>
+                  </Span> </P>
+                <P class="in"> <span>340m<sup>2</sup></span><Span>1</Span></P>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--end category Garage -->
+
+
+    <!--start recommended -->
+
+
+    <section class="container recommend">
+      <h2>RECOMMEND</h2>
+      <div class="row">
+        <div class="cardd ">
+          <img class="img-cardd" src="img/property-10.jpg" width="100% " height="100%">
+          <div class="overlay">
+            <div class="text">
+              <div class="title">
+                <h3>204 Mount
+                  Olive Road Two</h3>
+              </div> <a href="single property/single.html">
+                <div class="price_box">
+                  <span class="price">
+                    RENT : 12000$
+                  </span>
+                </div>
+              </a>
+              <br>
+              <div class="info">
+                <P class="in"><Span class="area">&nbsp; Area </span> <Span class="area"> &nbsp; &nbsp; &nbsp;<i
+                      class="fas fa-bed"> </i> </Span> <i class="fas fa-bath"> </i> <i class="fas fa-warehouse"> </i>
+                </P>
+                <P class="in"> <span>340m<sup>2</sup></span><Span>3</Span><Span>1</Span><Span>1</Span></P>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cardd ">
+          <img class="img-cardd" src="img/property-7.jpg" width="100% " height="100%">
+          <div class="overlay">
+            <div class="text">
+              <div class="title">
+                <h3>204 Mount
+                  Olive Road Two</h3>
+              </div>
+              <a href="single property/single.html">
+                <div class="price_box">
+                  <span class="price">
+                    RENT : 12000$
+                  </span>
+                </div>
+              </a>
+              <br>
+              <div class="info">
+                <P class="in"><Span class="area">&nbsp; Area </span> <Span class="area"> &nbsp; &nbsp; &nbsp;<i
+                      class="fas fa-bed"> </i> </Span> <i class="fas fa-bath"> </i> <i class="fas fa-warehouse"> </i>
+                </P>
+                <P class="in"> <span>340m<sup>2</sup></span><Span>3</Span><Span>1</Span><Span>1</Span></P>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cardd ">
+          <img class="img-cardd" src="img/property-3.jpg" width="100% " height="100%">
+          <div class="overlay">
+            <div class="text">
+              <div class="title">
+                <h3>204 Mount
+                  Olive Road Two</h3>
+              </div>
+              <a href="single property/single.html">
+                <div class="price_box">
+                  <span class="price">
+                    RENT : 12000$
+                  </span>
+                </div>
+              </a>
+              <br>
+              <div class="info">
+                <P class="in"><Span class="area">&nbsp; Area </span> <Span class="area"> &nbsp; &nbsp; &nbsp;<i
+                      class="fas fa-bed"> </i> </Span> <i class="fas fa-bath"> </i> <i class="fas fa-warehouse"> </i>
+                </P>
+                <P class="in"> <span>340m<sup>2</sup></span><Span>3</Span><Span>1</Span><Span>1</Span></P>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--end recommended -->
+
+
+    <!--start category satisfied-customers -->
+
+    <div class="background">
+      <div class="aa">
+
+        <section class="satisfied-customers">
+          <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class=" customer">
+                  <div class="img-holder">
+                    <img class="customer-img" src="img/6.webp"><br>
+                    <class class="name"> &nbsp; &nbsp; &nbsp; Marisar</class>
+                  </div>
+                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ex nostrum molestiae
+                    necessitatibus praesentium, molestias eveniet </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class=" customer">
+                  <div class="img-holder">
+                    <img class="customer-img" src="img/paris.jpg">
+                    <br>
+                    <class class="name"> &nbsp; &nbsp; &nbsp;Marwan</class>
+                  </div>
+                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ex nostrum molestiae </p>
+
+
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class=" customer">
+                  <div class="img-holder">
+                    <img class="customer-img" src="img/paris.jpg"><br>
+                    <class class="name"> &nbsp; &nbsp; &nbsp;Ahmed </class>
+                  </div>
+                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ex nostrum molestiae
+
+                    , </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class=" customer">
+                  <div class="img-holder">
+                    <img class="customer-img" src="img/image-0-1024x1024.webp"><br>
+                    <class class="name"> &nbsp; &nbsp; &nbsp; Mark </class>
+                  </div>
+                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev prev" href="#carouselExampleControls1" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon text-dark" aria-hidden="true"></span>
+              <span class="sr-only text-dark">Previous</span>
+            </a>
+            <a class="carousel-control-next  next" href="#carouselExampleControls1" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!--end category satisfied-customers -->
+
+
+    <!--start footer -->
+
+
+    <section class="footer row">
+
+
+      <div class="row">
+        <div class="carddf cardf-1">
+          <div class="logo-footer">
+            <a class="navbar-brand" href="#" style=" width: 7rem; height: 5rem; "><img
+                src="img/logo_example_1-removebg.png" alt="" style="width: 100%; height: 100%;"></a>
+          </div>
+          <h4>R-state site</h4>
+          <br>
+          <p>
+            Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Necessitatibus <br> at fugiat quos praesentium
+            sed
+            similique <br>
+            illum amet unde in recusandae voluptates <br> aliquam minima blanditiis nam, deleniti <br> beatae asperiores
+            accusamus
+            laboriosam!
+          </p>
+        </div>
+        <div class="carddf"><br>
+          <h4>
+            our service
+          </h4>
+          <br>
+          <p>
+            <a href="#">
+              Advice
+            </a>
+          </p>
+          <p>
+            <a href="#">
+              Price guide
+
+            </a>
+          </p>
+          <p>
+            <a href="#">
+              Advertise your property
+            </a>
+          </p>
+          <p>
+            <a href="#">
+              Real estate appraisal
+            </a>
+          </p>
+          <p>
+            <a href="#">
+              our partners
+            </a>
+          </p>
+        </div>
+        <div class="carddf"><br>
+          <h4>
+            other service
+          </h4><br>
+          <p>
+            <a href="#">
+              Jops
+
+            </a>
+          </p>
+          <p>
+            <a href="contact us/contactus.html">
+              Contact with us
+            </a>
+          </p>
+          <p>
+            <a href="Terms & Conditions/Terms Conditions.html">
+              terms and conditions
+            </a>
+          </p>
+        </div>
+        <div class="carddf">
+          <div class="copyright "> <br>
+            copyright@GR 10</div>
+          <div class="links "> <br>
+            <h4>
+              Social links
+            </h4> <br>
+            <a href="">
+              <i class="fab fa-facebook"></i></a>&nbsp;&nbsp;
+            <a href=""> <i class="fab fa-twitter"></i> </a>&nbsp;&nbsp;
+            <a href=""><i class="fab fa-instagram"></i> </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--end footer -->
+
+  </div>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>

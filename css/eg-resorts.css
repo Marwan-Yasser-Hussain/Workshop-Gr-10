@@ -16,7 +16,8 @@ html{
   font-family: product-sans, Arial, sans-serif;
 }
 body{
-  padding: 100px 0;
+  padding: 80px 0 0;
+  background-color: var(--white-color);
 }
 
 :root{
@@ -173,6 +174,42 @@ body{
     padding: 5px;
   }
 }
+@media screen and (max-width: 425px){
+  .header{
+    flex-direction: column;
+  }
+  .header h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .resort{
+    width: 100%;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+  }
+  .resort .img{
+    width: 100%;
+  }
+  .resort .img img{
+    width: 100%;
+  }
+  .resort .img .opinion{
+    bottom: 8px;
+    left: 50%;
+  }
+  .resort-text {
+    margin-left: 2rem;
+}
+}
+
+@media screen and (max-width: 320px){
+  .header h1{
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+}
+
 
 
 

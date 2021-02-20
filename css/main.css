@@ -348,6 +348,12 @@
   position: relative;
   overflow: hidden;
 }
+.cardf-1{
+  transform: translate(0px, -54px);
+}
+.logo-footer{
+  width: 39%;
+}
 .dropdown-item{
   color: #262626 !important;
 }
@@ -405,6 +411,7 @@ a:link {
 .info{
   background-color: #023f67 ;
   width: 100%;
+  padding: 8px 0 8px 0;
 }
 .in{
   display: flex;
@@ -412,7 +419,7 @@ a:link {
 }
 .text{
   position: absolute;
-  bottom: -25%;
+  bottom: -30%;
   left: 0%;  
   transition: 0.5s;
   width: 100%;
@@ -420,7 +427,7 @@ a:link {
 }
 
 .overlay:hover .text{
-  transform:translate(0,-68px);
+  transform:translate(0,-77px);
 
 }
 .iconify{
@@ -490,7 +497,7 @@ a:link {
 }
 .footer{
   color: white;
-  background-color: #41537B ;
+  background-color: #29395d;
   margin-right: 0!important;
 }
 .carddf{
@@ -516,7 +523,7 @@ body {font-family: "Open Sans", Arial, Helvetica, sans-serif; background-color: 
     padding: 19px;
     position: absolute;
     z-index: 80;
-    top: 60%;
+    top: 82%;
     left: 50%;
     background: rgba(0, 0, 0, 0.6);
     margin-bottom: 20px;
@@ -527,6 +534,9 @@ body {font-family: "Open Sans", Arial, Helvetica, sans-serif; background-color: 
 }
 .well-searchbox label {
     color: #fff;
+}
+.carousel-item .overlay div.carousel-caption h1 {
+  font-size: 4.5rem;
 }
 /* End search */
 
@@ -880,6 +890,10 @@ section .faq-2 {
   top: -200px;
   right: 8px;
 }
+.logo-footer {
+  width: 50%;
+  margin-left: 11rem;
+}
 
 /* .cardd .text{
   bottom: -30%;
@@ -920,6 +934,12 @@ section .faq-2 {
 }
 .overlay .info{
   padding: 5px;
+}
+.carousel-item .overlay div.carousel-caption h1 {
+  font-size: 3.5rem;
+}
+div.well-searchbox {
+  width: 100% !important;
 }
 
 }

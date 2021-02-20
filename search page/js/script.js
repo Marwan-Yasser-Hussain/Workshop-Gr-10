@@ -1,5 +1,5 @@
 
-var dest = new Date("feb 15, 2021 10:00:00").getTime();
+var dest = new Date("march 15, 2021 10:00:00").getTime();
 var x = setInterval(function(){
 var now = new Date().getTime();
 var diff = dest - now ;

@@ -1,0 +1,70 @@
+#login {
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+}
+#login .text{
+    color: gold;
+}
+#login h1 {
+    font-size: 37px;
+    color: white;
+    margin-top: 250px;
+    margin-right: 400px;
+}
+
+#login p {
+    font-size: 17px;
+    color: white;
+    margin-right: 400px;
+
+}
+#login h2{
+    font-size: 25px;
+    color: gold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.col-md-4{
+    margin-top: 80px;
+    box-shadow: -1px 1px 60px 10px;
+    background: rgba(0, 0, 0, 0.4);
+}
+.label{
+    font-weight: normal;
+    margin-top: 15px;
+    color: white;
+    font-size: 18px;
+}
+.form-control{
+    background: transparent;
+    border-radius:0px;
+    border: 0px;
+    border-bottom:1px solid white;
+    font-size: 18px;
+    margin-top: 10px;
+    height: 40px;
+}
+input[type="checkbox"]{
+    margin-top: 15px;
+    width: 15px;
+    height: 15px;
+    border: 0;
+   
+}
+.custom-control-label{
+    margin-left: 10px;
+color: gold;
+}
+.form-check-label{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: gold;
+}
+.btn {
+background-color: gold;
+}
