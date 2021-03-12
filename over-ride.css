@@ -453,7 +453,7 @@ section .faq-2{
 .eg-resorts{
   width: 100%;
   margin: 60px 0;
-  background: url(img/para.jpg) center;
+  background: url(img/pyramids-giza.jpg) center;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -461,6 +461,12 @@ section .faq-2{
   background-color: #00000080;
   background-blend-mode: darken;
   text-align: center;
+}
+.eg-resorts .resort-text p{
+  color: var(--white-color);
+  width: 80%;
+  margin: 0 auto 30px;
+
 }
 .eg-resorts .resort-text h1{
   color: var(--white-color);
@@ -787,10 +793,7 @@ section .faq-2 {
   }
 }
 @media screen and (max-width:425px){
-  .overlay:hover .text{
-    transform:translate(0,-85px);
   
-  }
 
   section .faq-image{
     display: none;
@@ -803,3 +806,5 @@ section .faq-2 {
 }
 
 /* End media styling */
+
+

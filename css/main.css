@@ -65,6 +65,9 @@
   color: rgb(23, 101, 190);
   margin-right: 2px;
 }
+.cover .container{
+  background-color: unset;
+}
   .row{
     justify-content: center !important;
   }
@@ -349,10 +352,10 @@
   overflow: hidden;
 }
 .cardf-1{
-  transform: translate(0px, -54px);
+  transform: translate(0px, -90px);
 }
 .logo-footer{
-  width: 39%;
+  width: 55%;
 }
 .dropdown-item{
   color: #262626 !important;
@@ -411,7 +414,8 @@ a:link {
 .info{
   background-color: #023f67 ;
   width: 100%;
-  padding: 8px 0 8px 0;
+  padding: 20px 0 20px 0;
+  font-size: 1.2rem;
 }
 .in{
   display: flex;
@@ -419,7 +423,7 @@ a:link {
 }
 .text{
   position: absolute;
-  bottom: -30%;
+  bottom: -39%;
   left: 0%;  
   transition: 0.5s;
   width: 100%;
@@ -427,7 +431,7 @@ a:link {
 }
 
 .overlay:hover .text{
-  transform:translate(0,-77px);
+  transform: translate(0,-116px);
 
 }
 .iconify{
@@ -472,6 +476,7 @@ a:link {
   width: 100%;
 }
 .name{  
+  margin-left: 6%;
   text-align: center;
   font-size: 30px;
   text-shadow: rgb(0, 0, 0, 0.5);
@@ -491,7 +496,7 @@ a:link {
 .customer-img{
   border-radius: 50%;
   height: 66%;
-  margin-left: 5%;
+  margin-left: 4.1%;
   width: 10% !important;
   height: 65% !important;
 }
@@ -503,6 +508,7 @@ a:link {
 .carddf{
   width: 17% !important;
   margin: 4%;
+  padding-top: 4%;
 }
 .fab{
   font-size: 30px !important;
@@ -851,6 +857,13 @@ section .faq-2{
     padding: 1rem;
   }
 }
+@media screen and (max-width:990px){
+  .fav-box{
+    display: flex !important;
+    grid-gap: 15px;
+    margin: 0 auto;
+  }
+}
 
 @media screen and (max-width:800px){
  .carddf{
@@ -892,7 +905,7 @@ section .faq-2 {
 }
 .logo-footer {
   width: 50%;
-  margin-left: 11rem;
+  margin-left: 25%;
 }
 
 /* .cardd .text{
@@ -920,6 +933,24 @@ section .faq-2 {
   
 }
 
+@media screen and (max-width:950px){
+   .carddf{
+     width: 24% !important;
+     margin: 0 10%;
+   }
+}
+@media screen and (max-width:950px){
+  .ads {
+    width: 100% !important  ;
+  }
+  
+}
+@media screen and (max-width:950px){
+  .ads {
+    height: 122px !important  ;
+  }
+  
+}
 @media screen and (max-width:768px){
 .cardd{
   width: 100%;
@@ -929,12 +960,13 @@ section .faq-2 {
   text-align: center;
 }
 .overlay:hover .text{
-  transform:translate(0,-85px);
+  transform: translate(0,-127px);
   
 }
-.overlay .info{
-  padding: 5px;
+.text{
+  bottom: -32% !important; 
 }
+
 .carousel-item .overlay div.carousel-caption h1 {
   font-size: 3.5rem;
 }
@@ -1066,4 +1098,72 @@ div.well-searchbox form.form-horizontal .form-group {
 }
 .aaaa:hover{
   color: white !important;
+}
+
+
+#reveal{
+  position: relative;
+  transform: translateY(115px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+#reveal.activ{
+  transform: translateY(0px);
+  opacity: 1;
+
+}
+#reveal-left{
+  position: relative;
+  transform: translateX(-115px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+#reveal-left.activ{
+  transform: translateX(0px);
+  opacity: 1;
+  
+}
+#reveal-right{
+  position: relative;
+  transform: translateX(115px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+#reveal-right.activ{
+  transform: translateX(0px);
+  opacity: 1;
+  
+}
+@media screen and (max-width:1170px){
+  #reveal-left{
+    position: relative;
+    transform: translateX(-70px);
+    opacity: 0;
+    transition: all 2s ease;
+  }
+
+  #reveal-right{
+    position: relative;
+    transform: translateX(70px);
+    opacity: 0;
+    transition: all 2s ease;
+  }
+}
+@media screen and (max-width:1076px){
+  #reveal-left{
+    position: relative;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: all 2s ease;
+  }
+
+  #reveal-right{
+    position: relative;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: all 2s ease;
+  }
 }

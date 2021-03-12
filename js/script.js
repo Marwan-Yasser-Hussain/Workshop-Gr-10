@@ -54,3 +54,52 @@ for (var i = 0; i < btns.length; i++) {
 }
 
 // ********* /Filter Script*********
+
+
+window.addEventListener('scroll', reveal);
+
+function reveal(){
+  var reveals = document.querySelectorAll('#reveal');
+  var revealsLeft = document.querySelectorAll('#reveal-left');
+  var revealsRight = document.querySelectorAll('#reveal-right');
+
+  for(var i = 0; i < reveals.length; i++){
+
+    var windowheight = window.innerHeight;
+    var revealtop = reveals[i].getBoundingClientRect().top;
+    var revealpoint = 100;
+
+    if(revealtop < windowheight - revealpoint){
+      reveals[i].classList.add('activ');
+    }
+    else{
+      reveals[i].classList.remove('activ');
+    }
+  }
+  for(var i = 0; i < revealsLeft.length; i++){
+
+    var windowheight = window.innerHeight;
+    var revealtop = revealsLeft[i].getBoundingClientRect().top;
+    var revealpoint = 100;
+
+    if(revealtop < windowheight - revealpoint){
+      revealsLeft[i].classList.add('activ');
+    }
+    else{
+      revealsLeft[i].classList.remove('activ');
+    }
+  }
+  for(var i = 0; i < revealsRight.length; i++){
+
+    var windowheight = window.innerHeight;
+    var revealtop = revealsRight[i].getBoundingClientRect().top;
+    var revealpoint = 100;
+
+    if(revealtop < windowheight - revealpoint){
+      revealsRight[i].classList.add('activ');
+    }
+    else{
+      revealsRight[i].classList.remove('activ');
+    }
+  }
+}
