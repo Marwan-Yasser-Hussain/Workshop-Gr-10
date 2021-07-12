@@ -1,7 +1,7 @@
 window.onload = () => {
   setTimeout(() => {
     document.querySelector("body").classList.add("display");
-  }, 4000);
+  }, 1000);
 };
 // ********* Start Filter Script*********
 
@@ -55,6 +55,8 @@ for (var i = 0; i < btns.length; i++) {
 
 // ********* /Filter Script*********
 
+// ********* /anmation script*********
+
 
 window.addEventListener('scroll', reveal);
 
@@ -102,4 +104,62 @@ function reveal(){
       revealsRight[i].classList.remove('activ');
     }
   }
+}
+
+// ********* /translate Script*********
+let english = document.querySelector('.english')
+let arabic = document.querySelector('.arabic')
+let france = document.querySelector('.france')
+let home = document.querySelector('.ho')
+let about = document.querySelector('.ab')
+let apply = document.querySelector('.ap')
+let user = document.querySelector('.us')
+let language = document.querySelector('.lan')
+
+
+let lang = localStorage.getItem('lang')
+
+  if(lang.includes("fra")){ 
+  fra();
+}
+  else if(lang.includes("ara")){ 
+    ara();
+  }
+  else if(lang.includes("eng")){ 
+    eng();
+  
+}
+function ara(){
+  localStorage.setItem("lang", 'ara');
+  english.classList.add('not-display');
+  arabic.classList.remove('not-display');
+  france.classList.add('not-display');
+  home.innerHTML = "الرئيسية";
+  about.innerHTML = "عنا";
+  apply.innerHTML = "تسجيل";
+  user.innerHTML = "معلومات المستخدم";
+  language.innerHTML = "اللغة";
+
+}
+function eng(){
+  localStorage.setItem("lang", 'eng');
+  english.classList.remove('not-display');
+  arabic.classList.add('not-display');
+  france.classList.add('not-display');
+  home.innerHTML = "Home";
+  about.innerHTML = "About";
+  apply.innerHTML = "Apply";
+  user.innerHTML = " User Information";
+  language.innerHTML = "Languages";
+}
+function fra(){
+  localStorage.setItem("lang", 'fra');
+  english.classList.add('not-display') ;
+  arabic.classList.add('not-display') ;
+  france.classList.remove('not-display') ;
+  home.innerHTML = "Accueil";
+  about.innerHTML = "sur";
+  apply.innerHTML = "appliquer";
+  user.innerHTML = "informations de l'utilisateur";
+  language.innerHTML = "langages";
 }

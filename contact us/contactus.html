@@ -3,12 +3,13 @@
 <head>
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/all.min.css">
-    <link rel="stylesheet" href="contact.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../over-ride.css">
-
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="contact.css">
+    
     <title>Document</title>
 </head>
 <body>
@@ -35,13 +36,10 @@
            </li>
            <li class="nav-item dropdown">
              <i class="fas fa-id-card-alt"></i>
-             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+             <a class="nav-link dropdown-toggle" href="../apply/apply.html" id="navbarDropdownMenuLink" role="button"
                data-bs-toggle="dropdown" aria-expanded="false">
                Apply</a>
-             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-               <li><a class="dropdown-item" href="../register/register.html">As a Seller </a></li>
-               <li><a class="dropdown-item" href="../register/register.html">As an Agency</a></li>
-             </ul>
+             
            </li>
            <li class="nav-item dropdown">
              <i class="fas fa-users"></i>
@@ -127,11 +125,11 @@
         <div class="form-row">
             <div class="form-group col-md-9">
                 <label for="inputAddress"> &nbsp; &nbsp; Name:</label>
-              <input style="margin-left: 5%;" type="text" class="form-control" id="inputname" placeholder="Name ">
+              <input style="margin-left: 5%;" type="text" class="form-control" id="inputname" placeholder="Name " minlength="5">
             </div><br>
             <div class="form-group col-md-9">
                 <label for="inputPassword4"> &nbsp; &nbsp; About:</label>
-                <input style="margin-left: 5%;" type="text" class="form-control" id="inputabout" placeholder="About">
+                <input style="margin-left: 5%;" type="text" class="form-control" id="inputabout" placeholder="About" minlength="3">
             </div><br>
         </div>
         <div class="form-group col-md-9">
@@ -140,7 +138,7 @@
         </div>
          <div class="form-group">
             <label for="inputEmail4"> &nbsp; &nbsp; Message:</label>
-            <textarea style="margin-left: 2.5%; width: 90%; height: 100px;"  class="form-control" aria-label="With textarea"></textarea>
+            <textarea style="margin-left: 2.5%; width: 90%; height: 100px;"  class="form-control" aria-label="With textarea" minlength="10"></textarea>
          </div><br>
         <button type="submit" class="btn btn-primary">Send</button>
       </form>
@@ -148,94 +146,73 @@
 </div> </div>
 </section>
 
-    <!--start footer -->
-    <section  class="footer ">
+<iframe
+src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d54588.425422994726!2d30.04555801535643!3d31.22691843770284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2seg!4v1597503415415!5m2!1sen!2seg"
+width="100%" height="580" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+tabindex="0"></iframe>
+
+     <!--start footer -->
+ 
+     <section class="footer ">
       <div class="row">
-        <br><br>
-        <div class="carddf cardf-1">
-          <div class="logo-footer">
-            <a class="navbar-brand" href="../index.html" style=" width: 7rem; height: 5rem; "><img
-                src="../img/logo_example_1-removebg.png" alt="" style="width: 100%; height: 100%;"></a>
+        <div class="card-footer about-footer">
+          <p class="title-footer">
+            <span class="bor">Abo</span>ut US
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, facere hic excepturi aut explicabo
+            perferendis ea! Cupiditate temporibus ratione labore nostrum fugit doloremque est corporis praesentium
+            repudiandae, autem magnam ut.
+          </p>
+          <div class="icons-footer">
+            <i style="background-color:#273a65;  color: #e1e1f5;" class="fab fa-twitter"></i> 
+            <i style="background-color:#273a65;     padding: 4px 0;     width: 40px;  color: #e1e1f5;" class="fab fa-facebook-f"></i>
+            <i style="background-color:#273a65;  color: #e1e1f5;" class="fab fab fa-instagram"></i>
           </div>
-          <h4>R-state site</h4>
-          <br>
-          <p>
-            Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Necessitatibus <br> at fugiat quos praesentium
-            sed
-            similique <br>
-            illum amet unde in recusandae voluptates <br> aliquam minima blanditiis nam, deleniti <br> beatae asperiores
-            accusamus
-            laboriosam!
-          </p>
         </div>
-        <div class="carddf"><br>
-          <h4>
-            our service
-          </h4>
-          <br>
-          <p>
-            <a href="#">
-              Advice
+        <div class="card-footer">
+          <p class="title-footer">
+            <span class="bor">Quic</span>k Links
+          </p>
+          <p class="link-footer">
+            <a href="../faq/FAQ.html">
+              FAQ
             </a>
           </p>
-          <p>
-            <a href="#">
-              Price guide
-
-            </a>
-          </p>
-          <p>
-            <a href="#">
-              Advertise your property
-            </a>
-          </p>
-          <p>
-            <a href="#">
-              Real estate appraisal
-            </a>
-          </p>
-          <p>
-            <a href="#">
-              our partners
-            </a>
-          </p>
-        </div>
-        <div class="carddf"><br>
-          <h4>
-            other service
-          </h4><br>
-          <p>
-            <a href="#">
-              Jops
-
-            </a>
-          </p>
-          <p>
-            <a href="../contact us/contactus.html">
-              Contact with us
-            </a>
-          </p>
-          <p>
+          <p class="link-footer">
             <a href="../Terms & Conditions/Terms Conditions.html">
-              terms and conditions
+              Terms & Conditions
+            </a>
+          </p>
+          <p class="link-footer">
+            <a href="../contact us/contactus.html">
+              Contact
             </a>
           </p>
         </div>
-        <div class="carddf">
-          <div class="copyright "> <br>
-            copyright@GR 10</div>
-          <div class="links "> <br>
-            <h4>
-              Social links
-            </h4> <br>
-            <a href="">
-              <i class="fab fa-facebook"></i></a>&nbsp;&nbsp;
-            <a href=""> <i class="fab fa-twitter"></i> </a>&nbsp;&nbsp;
-            <a href=""><i class="fab fa-instagram"></i> </a>
-          </div>
+        <div class="card-footer">
+          <p class="title-footer">
+            <span class="bor">Con</span>tact US
+          </p>
+          <p>
+            <i class="fas fa-map-marker-alt"></i> &nbsp; Lorem ipsum, dolor sit Modi velit nobis at soluta illo nihil
+            mollitia voluptat
+          </p>
+          <p>
+            <i class="fas fa-phone"></i> &nbsp; 01205439432-01111508139
+          </p>
+          <p>
+            <i class="fas fa-at"></i> &nbsp; info@yoursite.com
+          </p>
         </div>
       </div>
+      <br>
+      <hr>
+      <p align="center">
+        © 2021 Workshop Gr 10 - All Rights Reserved
+      </p>
     </section>
+
     <!--end footer -->
 
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"

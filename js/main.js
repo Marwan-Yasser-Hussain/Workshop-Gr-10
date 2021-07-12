@@ -89,6 +89,7 @@ addBtn.addEventListener('click', function(){
   document.body.appendChild(overLay);
 });
 
+// CARDS SLIDER //
 
 
 
@@ -104,10 +105,6 @@ addBtn.addEventListener('click', function(){
 
 
 
-
-
-
-// console.log(addBtn)
 
 
 

@@ -9,7 +9,7 @@ body{
 
 .bgg{
     width: 100%;
-    background-image: url("img/bg_1.jpg");
+    background-image: url("../img/bg.jpg");
     background-size: cover;
     padding: 0% !important;
 }
@@ -29,6 +29,10 @@ body{
 .txt{
     width: 75% !important;
     margin: 5%;
+    background-color: unset !important;
+    color: white;
+    padding: unset;
+    font-weight: unset;
 }
 .form{
    padding: 3% !important;

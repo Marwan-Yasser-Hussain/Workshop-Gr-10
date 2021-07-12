@@ -97,9 +97,7 @@
     font-family: G-R !important;
   }
   
-  .row {
-    margin: 8px -16px;
-  }
+
   .overlay{
     background-color: rgba(0, 0, 0, 0.5);
    position: absolute;
@@ -215,6 +213,7 @@
 /* Start Deal of the day Section */
 
 .deal{
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -344,6 +343,8 @@
 }
 
 .cardd{
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.6);
+  border-radius:0 13% ;
   padding: 0 !important;
   height:333px ;
   width: 30% !important;
@@ -351,12 +352,7 @@
   position: relative;
   overflow: hidden;
 }
-.cardf-1{
-  transform: translate(0px, -90px);
-}
-.logo-footer{
-  width: 55%;
-}
+
 .dropdown-item{
   color: #262626 !important;
 }
@@ -451,7 +447,7 @@ a:link {
   background-color: rgb(0, 0, 0, 0.0);
 }
 .background{
-  background-image: url(../img/6.webp);
+  background-image: url(../img/bg.jpg);
   z-index: 0;
   background-size: cover;
   background-position: center center;
@@ -469,7 +465,7 @@ a:link {
   right: 0;
   height: 100%;
   width: 100%; 
-     background-color: rgb(0, 0, 0, 0.5);
+     background-color: rgb(0, 0, 0, 0.3);
 }
 
 .customer{
@@ -500,19 +496,7 @@ a:link {
   width: 10% !important;
   height: 65% !important;
 }
-.footer{
-  color: white;
-  background-color: #29395d;
-  margin-right: 0!important;
-}
-.carddf{
-  width: 17% !important;
-  margin: 4%;
-  padding-top: 4%;
-}
-.fab{
-  font-size: 30px !important;
-}
+
 
 /* end ahmed code */
 
@@ -866,10 +850,7 @@ section .faq-2{
 }
 
 @media screen and (max-width:800px){
- .carddf{
-   width: 100% !important;
-   text-align: center;
- }
+ 
  .customer-img{
    width: 20% !important;
  }
@@ -903,10 +884,7 @@ section .faq-2 {
   top: -200px;
   right: 8px;
 }
-.logo-footer {
-  width: 50%;
-  margin-left: 25%;
-}
+
 
 /* .cardd .text{
   bottom: -30%;
@@ -934,10 +912,7 @@ section .faq-2 {
 }
 
 @media screen and (max-width:950px){
-   .carddf{
-     width: 24% !important;
-     margin: 0 10%;
-   }
+  
 }
 @media screen and (max-width:950px){
   .ads {
@@ -955,10 +930,7 @@ section .faq-2 {
 .cardd{
   width: 100%;
 }
-.carddf{
-  width: 100% !important;
-  text-align: center;
-}
+
 .overlay:hover .text{
   transform: translate(0,-127px);
   
@@ -1167,3 +1139,265 @@ div.well-searchbox form.form-horizontal .form-group {
     transition: all 2s ease;
   }
 }
+
+.not-display{
+  display: none;
+}
+.not-display > nav{
+  position: absolute !important;
+  height: 0px !important;
+  bottom: 0;
+  display: none;
+  width: 0px !important;
+}
+
+
+
+.Restaurant{
+  background-color: white !important;
+}
+.Restaurant > .row{
+  justify-content: space-between !important;
+   margin: auto;
+}
+.shadow{
+  width: 32% !important;
+  box-shadow: 0px 5px 30px rgb(0 0 0 / 15%);
+  position: relative;
+  padding-right: 0% !important;
+  padding-left: 0% !important;
+}
+.bg-holder{
+  height: 280px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+    width: 100%;
+}
+
+.uc_hover_box {
+  z-index: 2;
+  position: absolute;
+  left: 0px;
+  top: 258px;
+  width: 100%;
+  height: 150px;
+  background: #fff;
+transform: skew(0deg,-6deg);
+transition: 1s;
+}
+.txt{
+  color: #232344;
+    font-size: large;
+    font-weight: 600;
+  z-index: 5;
+  position: relative;
+  padding: 20px;
+  background-color: azure;
+}
+.shadow:hover .uc_hover_box {
+transform: skew(0deg, 0deg);
+background-color: azure;
+}
+
+
+.bg-1{
+  background-image: url("../img/20417-1.jpg");
+}
+.bg-2{
+  background-image: url("../img/38877-Bar_Louie_Renaissance_Commons_1.jpg");
+}
+.bg-3{
+  background-image: url("../img/97205-Texas_de_Brazil_-_interior.jpg");
+}
+.bg-4{
+  background-image: url("../img/property-10.jpg");
+}
+.bg-5{
+  background-image: url("../img/property-7.jpg");
+}
+.bg-6{
+  background-image: url("../img/property-3.jpg");
+}
+.bg-7{
+  background-image: url("../img/image-0-1024x1024.webp");
+}
+.bg-8{
+  background-image: url("../img/image-0-1024x1024 (1).webp");
+}
+.bg-9{
+  background-image: url("../img/image-0-1024x1024 (2).webp");
+}
+
+.btn-info{
+  width: 150px;
+  height: 51px;
+  border-radius: 10%;
+  margin: 0 auto;
+}
+.btn-info > p{
+  width: auto;
+  margin: 14%;
+  position: relative;
+  top: 18%;
+}
+.btn-info > p > a{
+   color: #232344 !important;
+}
+.recommend > .row{
+  justify-content: space-between !important;
+   margin: auto;
+}
+.recommend{
+  background-color: white !important;
+}
+@media screen and (max-width:1000px){
+  .shadow{
+    width: 48% !important;
+    margin: 20px auto 40px auto;
+  }
+ .Restaurant > .row{
+    width: 100% !important;
+    margin-left: 0%;
+  }
+  .cardd{
+    width: 48% !important;
+  }
+}
+@media screen and (max-width:770px){
+  .shadow{
+    width: 80% !important;
+  }
+}
+@media screen and (max-width:500px){
+  .shadow{
+    width: 90% !important;
+  }
+}
+.TYPES{
+  margin-top: 100px;
+}
+
+.arabic .active .line {
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  animation-delay: 0.3s;
+  animation-duration: 1s;
+  animation-name: fadeInRight;
+}
+.arabic .nav.navbar{
+  direction: rtl;
+}
+
+.arabic .card-info h2 {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  font-weight: 300;
+  color: #eee;
+  text-align: right!important;
+}
+
+
+.wrapper{
+  width: 100%;
+}
+.ccarouse{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 30px;
+}
+.carouse .card{
+  color: #fff;
+  text-align: center;
+  margin: 20px 0;
+  line-height: 250px;
+  font-size: 90px;
+  font-weight: 600;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
+.carouse .card-1{
+  background: #ed1c24 !important;
+}
+.carouse .card-2{
+  background: #0072bc !important;
+}
+.carouse .card-3{
+  background: #39b54a !important;
+}
+.carouse .card-4{
+  background: #f26522 !important;
+}
+.carouse .card-5{
+  background: #630460 !important;
+}
+.owl-dots{
+  text-align: center;
+  margin-top: 40px;
+}
+.owl-dot{
+  height: 15px;
+  width: 45px;
+  margin: 0 5px;
+  outline: none;
+  border-radius: 14px;
+  border: 2px solid #0072bc!important;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+.owl-dot.active,
+.owl-dot:hover{
+  background: #0072bc!important;
+}
+.no-js .owl-carousell, .owl-carousel.owl-loaded {
+  display: block;
+}
+.owl-carousell {
+  width: 100%;
+  z-index: 1;
+}
+.owl-carousell, .owl-carousell .owl-item {
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+}
+.owl-carousell .owl-stage-outer {
+  position: relative;
+  overflow: hidden;
+  -webkit-transform: translate3d(0,0,0);
+}
+.owl-carousell, .owl-carousell .owl-item {
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+}
+.owl-carousell .owl-stage {
+  position: relative;
+  -ms-touch-action: pan-Y;
+  touch-action: manipulation;
+  -moz-backface-visibility: hidden;
+}
+.owl-carousell .owl-stage:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.owl-carousell .owl-item {
+  min-height: 1px;
+  float: left;
+  -webkit-backface-visibility: hidden;
+  -webkit-touch-callout: none;
+}
+.owl-carousell.owl-drag .owl-item {
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.Price-guide > .wrapper > .owl-carousell > .owl-nav {
+  display: none !important;
+}
+

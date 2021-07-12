@@ -17,10 +17,14 @@ h6{
 .map-button{
     position: relative;
     top: 0;
-    left: -125px;
-    color:#3b97ba;
+    left: -132px;
+    color:#1b2b31;
     font-weight: 600;
-    border: 1px solid black;
+    border: none;
+    outline: none;
+    padding: 8px;
+    background: #1414143f;
+    border-radius: 5px;
 }
 .shop-for{
     width: auto;

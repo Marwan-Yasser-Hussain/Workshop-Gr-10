@@ -16,7 +16,6 @@ html{
   font-family: product-sans, Arial, sans-serif;
 }
 body{
-  padding: 80px 0 0;
   background-color: var(--white-color);
 }
 
@@ -139,7 +138,7 @@ body{
 }
 .overlay .close{
   position: absolute;
-  top: 50px;
+  top: 100px;
   left: 80px;
   color: #d3d1d1;
   cursor: pointer;
